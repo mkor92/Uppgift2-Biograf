@@ -1,0 +1,24 @@
+{
+  "name": "uppgift2-biograf",
+  "version": "1.0.0",
+  "description": "GruppUppgift 2 – webbsida till Biograf",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --no-source-map static/sass/main.scss static/css/main.css --style compressed",
+    "watch": "sass --no-source-map --watch static/sass/main.scss static/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkor92/Uppgift2-Biograf.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkor92/Uppgift2-Biograf/issues"
+  },
+  "homepage": "https://github.com/mkor92/Uppgift2-Biograf#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
