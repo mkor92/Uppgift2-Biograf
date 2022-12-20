@@ -1,0 +1,24 @@
+{
+  "filmer": [
+      {
+          "id": "1",
+          "name": "yo",
+          "salong": "A"
+      },
+      {
+          "id": "2",
+          "name": "yo",
+          "salong": "D"
+      },
+      {
+          "id": "3",
+          "name": "yo",
+          "salong": "C"
+      },
+      {
+          "id": "4",
+          "name": "yo",
+          "salong": "E"
+      }
+  ]
+}
