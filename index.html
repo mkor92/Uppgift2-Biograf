@@ -9,17 +9,28 @@
   </head>
   <body>
     <header class="sec">
-      <nav class="sec-cont">
-        <ul>
-          <li><a href="#">Filmer</a></li>
-          <li><a href="#">Salonger</a></li>
-          <li><a href="#">Restaurang</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Om oss</a></li>
-        </ul>
-      </nav>
+      <div class="header-content-wrap">
+        <img src="static/images/logo.png" alt="logo" />
+
+        <nav class="header-nav">
+          <button class="header-nav-toggle"></button>
+          <menu class="header-menu">
+            <li>
+              <a class="header-menu-item" class="active" href="/index.html"
+                >Hem</a
+              >
+            </li>
+            <li><a class="header-menu-item" href="#">Om oss</a></li>
+            <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
+            <li><a class="header-menu-item" href="#">Presentkort</a></li>
+          </menu>
+        </nav>
+      </div>
     </header>
-    <main></main>
+    <main>
+      <p>hej</p>
+    </main>
     <footer></footer>
+    <script src="/src/JS/header.js"></script>
   </body>
 </html>
