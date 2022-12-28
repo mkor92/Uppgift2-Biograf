@@ -1,9 +1,9 @@
 // Nav meny
-nav {
+.sec-cont {
   width: 100%;
   height: 5rem;
   margin: 0 auto;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 0 5%;
 
   .nav {
@@ -47,7 +47,6 @@ nav {
     }
 
     .movies-nav-list:first-child:hover {
-
       .movies-nav-element {
         display: block;
         width: inherit;
@@ -56,16 +55,12 @@ nav {
       .arrow-top {
         display: none;
       }
-
-    
     }
   }
 }
 
 @media screen and (max-width: $breaking-point) {
-  
-  nav {
-
+  .sec-cont {
     .nav {
       width: 100%;
       display: flex;
@@ -77,22 +72,17 @@ nav {
       }
 
       .movies-nav-list {
-      
         .movies-nav-element {
           width: 85vw;
         }
       }
 
-      .movies-nav-list:first-child:hover, .movies-nav-list:first-child:focus {
-
+      .movies-nav-list:first-child:hover,
+      .movies-nav-list:first-child:focus {
         .movies-nav-element {
           display: block;
-          width: 85vw;      
+          width: 85vw;
         }
-
-        .arrow-top {
-          display: none;
-        }    
       }
     }
   }
