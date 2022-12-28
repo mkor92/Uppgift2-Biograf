@@ -69,6 +69,8 @@
   .sec-cont .nav .movies-nav-list .movies-nav-element {
     width: 85vw;
     background-color: #D9D9D9;
+    border-radius: 0.25rem;
+    margin-bottom: 0.15rem;
   }
   .sec-cont .nav .movies-nav-list:first-child:hover .movies-nav-element,
   .sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
