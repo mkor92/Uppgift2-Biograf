@@ -213,21 +213,11 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .sec-cont .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
 }
-.main-container {
-  width: 100%;
-}
-
-#booking-render-container {
-  border-radius: 5px;
-  margin: auto;
-  max-width: 808px;
-}
-
 .footer {
   background-color: #cc0028;
   position: fixed;
@@ -278,4 +268,35 @@ header nav menu .active {
   .footer {
     height: 7em;
   }
+}
+.main-content {
+  border-radius: 5px;
+  margin: auto;
+  max-width: 808px;
+  margin-bottom: 12em;
+  padding: 0 1rem;
+}
+
+.about-us-text {
+  padding-bottom: 2rem;
+}
+
+.contact-text-about-us {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.about-us-img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.main-container {
+  width: 100%;
+}
+
+#booking-render-container {
+  border-radius: 5px;
+  margin: auto;
+  max-width: 808px;
 }
