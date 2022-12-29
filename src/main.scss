@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+// Re-usable classes for bigger screens
+.sec {
+  padding: 0 5%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@import "variables.scss";
+@import "sections/header.scss";
+@import "sections/nav-menu.scss";
+@import "sections/footer.scss";
