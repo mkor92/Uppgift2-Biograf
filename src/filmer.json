@@ -1,24 +1,76 @@
 {
-  "filmer": [
+    "id": "1",
+    "title": "",
+    "description": "",
+    "category": "",
+    "salon": "",
+    "times": ["","",""],
+    "dates": ["","",""],
+    "image": "https://picsum.photos/200/300"
+  },
+
+
+{
+  "movies": [
       {
           "id": "1",
-          "name": "yo",
-          "salong": "A"
+          "title": "Black Adam",
+          "description": "",
+          "category": "Action",
+          "salon": "A",
+          "times": ["16:00","18:30","20:30"],
+          "dates": ["9/1/2023","11/1/2023","13/1/2023"],
+          "image": "https://picsum.photos/200/300"
       },
       {
-          "id": "2",
-          "name": "yo",
-          "salong": "D"
+            "id": "1",
+            "title": "",
+            "description": "",
+            "category": "",
+            "salon": "",
+            "times": ["","",""],
+            "dates": ["","",""],
+            "image": "https://picsum.photos/200/300"
       },
       {
-          "id": "3",
-          "name": "yo",
-          "salong": "C"
+        "id": "1",
+        "title": "",
+        "description": "",
+        "category": "",
+        "salon": "",
+        "times": ["","",""],
+        "dates": ["","",""],
+        "image": "https://picsum.photos/200/300"
       },
       {
-          "id": "4",
-          "name": "yo",
-          "salong": "E"
-      }
+        "id": "1",
+        "title": "",
+        "description": "",
+        "category": "",
+        "salon": "",
+        "times": ["","",""],
+        "dates": ["","",""],
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "1",
+        "title": "",
+        "description": "",
+        "category": "",
+        "salon": "",
+        "times": ["","",""],
+        "dates": ["","",""],
+        "image": "https://picsum.photos/200/300"
+      },
+      {
+        "id": "1",
+        "title": "",
+        "description": "",
+        "category": "",
+        "salon": "",
+        "times": ["","",""],
+        "dates": ["","",""],
+        "image": "https://picsum.photos/200/300"
+      },
   ]
 }
