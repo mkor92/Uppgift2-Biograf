@@ -218,3 +218,53 @@ header nav menu .active {
     width: 85vw;
   }
 }
+.footer {
+  background-color: #cc0028;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10em;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1em;
+  color: white;
+  list-style-type: none;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-options {
+  color: white;
+}
+.footer-options:hover {
+  text-decoration: underline;
+}
+
+#footer-facebook-logo {
+  color: white;
+}
+
+#footer-instagram-logo {
+  color: white;
+}
+
+#footer-twitter-logo {
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  h2 {
+    font-size: 0.8em;
+  }
+  li {
+    font-size: 0.8em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .footer {
+    height: 7em;
+  }
+}
