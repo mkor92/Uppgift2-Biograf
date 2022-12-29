@@ -154,6 +154,9 @@ header nav menu .active {
   margin: 0 auto;
   padding: 0 5%;
 }
+.sec-cont .mobile-nav-menu {
+  display: none;
+}
 .sec-cont .nav {
   width: 100%;
   display: flex;
@@ -197,6 +200,18 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 768px) {
+  .sec-cont .mobile-nav-menu {
+    display: block;
+    text-decoration: none;
+    border: 0.1rem solid black;
+    border-radius: 0.25rem;
+    text-align: center;
+    margin: 1rem 0 0.15rem 1rem;
+    padding: 0.45rem;
+    font-size: larger;
+    width: 85vw;
+    background-color: #D9D9D9;
+  }
   .sec-cont .nav {
     width: 100%;
     display: flex;
@@ -213,11 +228,19 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .sec-cont .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
 }
+.active {
+  visibility: visible;
+}
+
+.inactive {
+  visibility: hidden;
+}
+
 .footer {
   background-color: #cc0028;
   position: fixed;

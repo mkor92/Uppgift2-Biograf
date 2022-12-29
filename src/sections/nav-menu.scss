@@ -6,6 +6,10 @@
   margin: 0 auto;
   padding: 0 5%;
 
+  .mobile-nav-menu {
+    display: none;
+  }
+
   .nav {
     width: 100%;
     display: flex;
@@ -60,6 +64,20 @@
 
 @media screen and (max-width: $breaking-point) {
   .sec-cont {
+    .mobile-nav-menu {
+      display: block;
+      text-decoration: none;
+      border: 0.1rem solid black;
+      border-radius: 0.25rem;
+      text-align: center;
+      margin: 1rem 0 0.15rem 1rem;
+      padding: 0.45rem;
+      font-size: larger;
+      width: 85vw;
+      background-color: $forth-color;
+      
+    }
+
     .nav {
       width: 100%;
       display: flex;
@@ -88,4 +106,13 @@
       }
     }
   }
+}
+
+
+.active {
+  visibility: visible; 
+}
+
+.inactive {
+  visibility: hidden;
 }
