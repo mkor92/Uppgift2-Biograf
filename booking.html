@@ -1,72 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booking</title>
     <link rel="stylesheet" href="static/css/main.css" />
-    <script type="module" src="booking.js" defer></script>
-</head>
-<body>
+    <script type="module" src="src\JS\booking.js" defer></script>
+  </head>
+  <body>
     <header class="sec">
-        <div class="header-content-wrap">
-          <img src="static/images/logo.png" alt="logo" />
-          <nav class="header-nav">
-            <button class="header-nav-toggle"></button>
-            <menu class="header-menu">
-              <li>
-                <a class="header-menu-item active" href="/index.html">Hem</a>
-              </li>
-              <li><a class="header-menu-item" href="#">Om oss</a></li>
-              <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
-              <li><a class="header-menu-item" href="#">Presentkort</a></li>
-            </menu>
-          </nav>
-        </div>
-      </header>
-      <nav class="sec-cont">
-        <ul class="nav">
-          <li class="movies-nav">
-              <ul class="movies-nav-list">
-                <li class="movies-nav-element"><a href="#">Filmer <span class="arrow-top">&#9662;</span></a></li>
-                <li class="movies-nav-element"><a href="#">Komedi</a></li>
-                <li class="movies-nav-element"><a href="#">Action</a></li>
-                <li class="movies-nav-element"><a href="#">Drama</a></li>
-              </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element"><a href="#">Salonger <span class="arrow-top">&#9662;</span></a></li>
-              <li class="movies-nav-element"><a href="#">Salong A</a></li>
-              <li class="movies-nav-element"><a href="#">Salong B</a></li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element"><a href="#">Restaurang <span class="arrow-top">&#9662;</span></a></li>
-              <li class="movies-nav-element"><a href="#">Boka bord</a></li>
-              <li class="movies-nav-element"><a href="#">Vår menu</a></li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element"><a href="#">Events <span class="arrow-top">&#9662;</span></a></li>
-              <li class="movies-nav-element"><a href="#">Live på bio</a></li>
-              <li class="movies-nav-element"><a href="#">Specialvisningar</a></li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element"><a href="#">Kontakt</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+      <div class="header-content-wrap">
+        <img src="static/images/logo.png" alt="logo" />
+        <nav class="header-nav">
+          <button class="header-nav-toggle"></button>
+          <menu class="header-menu">
+            <li>
+              <a class="header-menu-item active" href="/index.html">Hem</a>
+            </li>
+            <li><a class="header-menu-item" href="#">Om oss</a></li>
+            <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
+            <li><a class="header-menu-item" href="#">Presentkort</a></li>
+          </menu>
+        </nav>
+      </div>
+    </header>
+    <nav class="sec-cont">
+      <ul class="nav">
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="#">Filmer <span class="arrow-top">&#9662;</span></a>
+            </li>
+            <li class="movies-nav-element"><a href="#">Komedi</a></li>
+            <li class="movies-nav-element"><a href="#">Action</a></li>
+            <li class="movies-nav-element"><a href="#">Drama</a></li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="#">Salonger <span class="arrow-top">&#9662;</span></a>
+            </li>
+            <li class="movies-nav-element"><a href="#">Salong A</a></li>
+            <li class="movies-nav-element"><a href="#">Salong B</a></li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="#">Restaurang <span class="arrow-top">&#9662;</span></a>
+            </li>
+            <li class="movies-nav-element"><a href="#">Boka bord</a></li>
+            <li class="movies-nav-element"><a href="#">Vår menu</a></li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="#">Events <span class="arrow-top">&#9662;</span></a>
+            </li>
+            <li class="movies-nav-element"><a href="#">Live på bio</a></li>
+            <li class="movies-nav-element"><a href="#">Specialvisningar</a></li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element"><a href="#">Kontakt</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
     <main class="main-container">
-        <div id="booking-render-container">   
-        </div>
+      <div id="booking-render-container"></div>
     </main>
-    
-</body>
+    <footer class="footer">
+      <div class="footer-content">
+        <nav class="footer-nav">
+          <div class="footer-row-1">
+            <h2 class="footer-luleå-bio">LULEÅ BIO</h2>
+            <li>
+              <a
+                class="footer-options"
+                href="https://www.google.com/maps/place/Lule%C3%A5/@65.586662,22.1823806,12z/data=!3m1!4b1!4m5!3m4!1s0x467f6314d2e8b867:0x4034506de8c8620!8m2!3d65.584819!4d22.1567026"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Lordgatan 123, Sverige</a
+              >
+            </li>
+          </div>
+          <div class="footer-row-2">
+            <h2 class="footer-kontakta-oss">KONTAKTA OSS</h2>
+            <li><a class="footer-options" href="#">0920-454545</a></li>
+            <li><a class="footer-options" href="#">info@webbsida.se</a></li>
+          </div>
+          <div class="footer-row-3">
+            <h2 class="footer-sociala-medier">SOCIALA MEDIER</h2>
+            <a
+              href="#"
+              class="fa-brands fa-facebook fa-xl"
+              id="footer-facebook-logo"
+            ></a>
+            <a
+              href="#"
+              class="fa-brands fa-instagram fa-xl"
+              id="footer-instagram-logo"
+            ></a>
+            <a
+              href="#"
+              class="fa-brands fa-twitter fa-xl"
+              id="footer-twitter-logo"
+            ></a>
+          </div>
+          <div class="footer-row-4">
+            <h2 class="footer-övrigt">ÖVRIGT</h2>
+            <li><a class="footer-options" href="#">Meny</a></li>
+          </div>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
