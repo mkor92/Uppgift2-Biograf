@@ -1,9 +1,9 @@
 // Nav meny
 .sec-cont {
   width: 100%;
+  max-width: 1000px;
   height: 5rem;
   margin: 0 auto;
-  max-width: 1000px;
   padding: 0 5%;
 
   .nav {
@@ -27,12 +27,11 @@
         text-decoration: none;
         list-style-type: none;
         border: 0.1rem solid black;
-        text-align: center;
-        padding: 0.45rem;
-        margin-left: 1rem;
         border-radius: 0.5rem;
+        text-align: center;
+        margin: 0 0 0.07rem 1rem;
+        padding: 0.45rem;
         background-color: $second-color;
-        margin-bottom: 0.07rem;
         position: relative;
         font-size: larger;
 
