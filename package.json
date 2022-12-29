@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "sass --no-source-map src/sass/main.scss static/css/main.css --style compressed",
-    "watch": "sass --no-source-map --watch src/sass/main.scss static/css/main.css"
+    "build": "sass --no-source-map src/main.scss static/css/main.css --style compressed",
+    "watch": "sass --no-source-map --watch src/main.scss static/css/main.css"
   },
   "repository": {
     "type": "git",
