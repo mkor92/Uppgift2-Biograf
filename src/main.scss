@@ -11,9 +11,14 @@
   padding: 0 5%;
 }
 
+main {
+  width: 100%;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 @import "variables.scss";
 @import "sections/header.scss";
 @import "sections/nav-menu.scss";
+@import "sections/accordion.scss";
 @import "sections/footer.scss";
