@@ -6,17 +6,21 @@
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
+
 .sec {
   padding: 0 5% !important;
 }
+
 .sec-cont {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 main {
   width: 100%;
   min-height: 70vh;
 }
+
 header {
   background-color: #cc0028;
 }
@@ -35,7 +39,7 @@ header nav menu {
   list-style: none;
 }
 header nav menu a {
-  color: #fff;
+  color: white;
   font-weight: bold;
   padding-top: 18px;
   padding-block-end: 22px;
@@ -47,11 +51,13 @@ header nav menu a:hover {
   transform: scale(1.2);
 }
 header nav menu .active {
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid white;
 }
+
 .header-nav-toggle {
   display: none;
 }
+
 @media screen and (max-width: 640px) {
   .header-nav-toggle {
     display: block;
@@ -63,7 +69,7 @@ header nav menu .active {
     width: 3em;
     height: 0.4em;
     border-radius: 0.2em;
-    background-color: #fff;
+    background-color: white;
     margin: 0;
     padding: 0;
     border-width: 0;
@@ -76,7 +82,7 @@ header nav menu .active {
     width: 3em;
     height: 0.4em;
     border-radius: 0.2em;
-    background-color: #fff;
+    background-color: white;
     position: relative;
     top: 0.8em;
     transition: transform 0.5s;
@@ -87,7 +93,7 @@ header nav menu .active {
     width: 3em;
     height: 0.4em;
     border-radius: 0.2em;
-    background-color: #fff;
+    background-color: white;
     position: relative;
     top: 1.2em;
   }
@@ -178,17 +184,17 @@ header nav menu .active {
   width: fit-content;
   text-decoration: none;
   list-style-type: none;
-  border: 0.1rem solid #000;
+  border: 0.1rem solid black;
   border-radius: 0.5rem;
   text-align: center;
   margin-right: 0.5rem;
   padding: 0.45rem;
-  background-color: #fff;
+  background-color: white;
   position: relative;
   font-size: larger;
 }
 #menu-id .nav > ul .movies-nav-list .movies-nav-element a {
-  color: #000;
+  color: black;
 }
 #menu-id .nav > ul .movies-nav-list .movies-nav-element:not(:first-child) {
   display: none;
@@ -200,6 +206,7 @@ header nav menu .active {
 #menu-id .nav > ul .movies-nav-list:first-child:hover .arrow-top {
   display: none;
 }
+
 @media screen and (max-width: 640px) {
   #menu-id {
     height: fit-content;
@@ -209,13 +216,13 @@ header nav menu .active {
   }
   #menu-id .mobile-nav-menu {
     display: block;
-    border: 0.1rem solid #000;
+    border: 0.1rem solid black;
     border-radius: 0.25rem;
     text-align: center;
     margin: 0.5rem auto 0.15rem;
     padding: 0.45rem;
     width: 85vw;
-    background-color: #fff;
+    background-color: white;
     font-size: larger;
   }
   #menu-id .nav:not(:first-child) {
@@ -240,29 +247,12 @@ header nav menu .active {
     background-color: #d9d9d9;
     border-radius: 0.25rem;
   }
-  #menu-id
-    .nav
-    > ul
-    .movies-nav
-    .movies-nav-list
-    .movies-nav-element:not(:first-child) {
+  #menu-id .nav > ul .movies-nav .movies-nav-list .movies-nav-element:not(:first-child) {
     margin-top: 0.4rem;
-    background-color: #fff;
+    background-color: white;
   }
-  #menu-id
-    .nav
-    > ul
-    .movies-nav
-    .movies-nav-list
-    .movies-nav-list:first-child:hover
-    .movies-nav-element,
-  #menu-id
-    .nav
-    > ul
-    .movies-nav
-    .movies-nav-list
-    .movies-nav-list:first-child:focus
-    .movies-nav-element {
+  #menu-id .nav > ul .movies-nav .movies-nav-list .movies-nav-list:first-child:hover .movies-nav-element,
+  #menu-id .nav > ul .movies-nav .movies-nav-list .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -270,32 +260,39 @@ header nav menu .active {
 .accordion-cont {
   height: 15rem;
 }
+
 .footer {
   background-color: #cc0028;
   height: auto;
 }
+
 .footer-nav {
   padding: 2rem 0 4rem 0;
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: white;
   list-style-type: none;
 }
+
 .footer-options {
-  color: #fff;
+  color: white;
 }
 .footer-options:hover {
   text-decoration: underline;
 }
+
 #footer-facebook-logo {
-  color: #fff;
+  color: white;
 }
+
 #footer-instagram-logo {
-  color: #fff;
+  color: white;
 }
+
 #footer-twitter-logo {
-  color: #fff;
+  color: white;
 }
+
 @media screen and (max-width: 640px) {
   .footer-nav {
     display: grid;
@@ -316,21 +313,26 @@ header nav menu .active {
   margin-top: 1em;
   margin-bottom: 12em;
 }
+
 .about-us-text {
   padding-bottom: 2rem;
 }
+
 .contact-text-about-us {
   padding: 2rem 0;
   text-align: center;
 }
+
 .about-us-img {
   width: 90%;
   display: block;
   margin: 0 auto;
 }
+
 .main-container {
   padding: 1rem 0;
 }
+
 #booking-render-container {
   border-radius: 10px;
 }
@@ -338,7 +340,7 @@ header nav menu .active {
   text-align: center;
 }
 #booking-render-container .buy-button-container button {
-  color: #fff;
+  color: white;
   background-color: #cc0028;
   padding: 1rem 2.5rem;
   border-radius: 10px;
