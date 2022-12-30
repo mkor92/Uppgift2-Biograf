@@ -1,3 +1,97 @@
 .accordion-cont {
-    height: 15rem;
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border: 8px solid black;
+
+    // Buttons
+    .slide-btn {
+        position: absolute;
+        top: 0;
+        width: 15%;
+        height: 100%;
+        background-color: rgba(0, 255, 255, 0);
+        border: none;
+        outline: none;
+
+        img {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        &.prev {
+            left: 0;
+        }
+
+        &.next {
+            right: 0;
+        }
+    }
+
+    // Slider
+    .slider {
+        height: 20rem;
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+        .slide {
+            cursor: grab;
+            min-width: 100%;
+            height: inherit;
+            position: relative;
+            display: flex;
+            justify-content: center;
+
+            .slide-content {
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: flex-start;
+                flex-direction: column;
+                z-index: 2;
+                padding-bottom: 3rem;
+
+                h2,
+                h3 { color: $second-color; }
+
+                h2 {
+                    font-size: 3rem;
+                    line-height: .8;
+                }
+
+                h3 {
+                    margin-top: .2rem;
+                    font-size: 1.5rem;
+                }
+
+                a {
+                    margin-top: .5rem;
+                    width: auto;
+                    height: auto;
+                    position: unset;
+                    color: $second-color;
+                    background-color: rgb(23, 23, 23);
+                    padding: .5rem 4rem;
+                    border: 1px solid $second-color;
+                }
+            }
+
+            img {
+                pointer-events: none;
+                z-index: -1;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: inherit;
+                object-fit: cover;
+            }
+        }
+    }
 }
