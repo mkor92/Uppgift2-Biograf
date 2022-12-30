@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="static/css/main.css" />
     <script type="module" defer src="src/JS/main.js"></script>
@@ -10,17 +10,18 @@
       src="https://kit.fontawesome.com/04d50240d2.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="static/css/main.css" />
     <title>Biograf Luleå</title>
   </head>
   <body>
     <header class="sec">
-      <div class="header-content-wrap">
-        <img src="static/images/logo.png" alt="logo" />
+      <div class="header-content-wrap sec-cont">
+        <img src="static/images/Logo.png" alt="logo" />
         <nav class="header-nav">
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
             <li>
-              <a class="header-menu-item active" href="/index.html">Hem</a>
+              <a class="header-menu-item active" href="index.html">Hem</a>
             </li>
             <li>
               <a class="header-menu-item" href="/about-us.html">Om oss</a>
@@ -31,9 +32,9 @@
         </nav>
       </div>
     </header>
-    <nav class="sec-cont">
+    <nav class="sec">
       <button class="mobile-nav-menu">Meny <span class="arrow-top" id="menu-span">&#9662;</span></button>
-      <div class="nav">
+      <div class="nav sec-cont">
       <ul>
         <li class="movies-nav">
           <ul class="movies-nav-list">
@@ -80,9 +81,14 @@
       </ul>
     </div>
     </nav>
-    <main></main>
-    <footer class="footer">
-      <div class="footer-content">
+    <main>
+      <div class="sec-cont">
+        <section class="accordion-cont">
+        </section>
+      </div>
+    </main>
+    <footer class="footer sec">
+      <div class="footer-content sec-cont">
         <nav class="footer-nav">
           <div class="footer-row-1">
             <h2 class="footer-luleå-bio">LULEÅ BIO</h2>

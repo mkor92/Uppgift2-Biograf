@@ -1,76 +1,220 @@
 {
-    "id": "1",
-    "title": "",
-    "description": "",
-    "category": "",
-    "salon": "",
-    "times": ["","",""],
-    "dates": ["","",""],
-    "image": "https://picsum.photos/200/300"
-  },
-
-
-{
   "movies": [
-      {
-          "id": "1",
-          "title": "Black Adam",
-          "description": "",
-          "category": "Action",
-          "salon": "A",
-          "times": ["16:00","18:30","20:30"],
-          "dates": ["9/1/2023","11/1/2023","13/1/2023"],
-          "image": "https://picsum.photos/200/300"
-      },
-      {
-            "id": "1",
-            "title": "",
-            "description": "",
-            "category": "",
-            "salon": "",
-            "times": ["","",""],
-            "dates": ["","",""],
-            "image": "https://picsum.photos/200/300"
-      },
-      {
-        "id": "1",
-        "title": "",
-        "description": "",
-        "category": "",
-        "salon": "",
-        "times": ["","",""],
-        "dates": ["","",""],
-        "image": "https://picsum.photos/200/300"
-      },
-      {
-        "id": "1",
-        "title": "",
-        "description": "",
-        "category": "",
-        "salon": "",
-        "times": ["","",""],
-        "dates": ["","",""],
-        "image": "https://picsum.photos/200/300"
-      },
-      {
-        "id": "1",
-        "title": "",
-        "description": "",
-        "category": "",
-        "salon": "",
-        "times": ["","",""],
-        "dates": ["","",""],
-        "image": "https://picsum.photos/200/300"
-      },
-      {
-        "id": "1",
-        "title": "",
-        "description": "",
-        "category": "",
-        "salon": "",
-        "times": ["","",""],
-        "dates": ["","",""],
-        "image": "https://picsum.photos/200/300"
-      },
+    {
+      "id": "1",
+      "title": "Black Adam",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-1-9T13:45", "2023-1-11T16:30", "2023-1-13T17:45"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Bränn alla mina brev",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Drama",
+      "salon": "B",
+      "dateTime": ["2023-1-9T14:45", "2023-1-11T18:30", "2023-1-13T20:45"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Bullet Train",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-1-10T15:00", "2023-1-12T17:30", "2023-1-14T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Cirkus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Komedi",
+      "salon": "B",
+      "dateTime": ["2023-1-10T14:30", "2023-1-12T17:00", "2023-1-14T20:30"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Emily",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Drama",
+      "salon": "B",
+      "dateTime": ["2023-1-15T15:00", "2023-1-17T17:30", "2023-1-19T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Hilma",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Drama",
+      "salon": "B",
+      "dateTime": ["2023-1-16T15:00", "2023-1-18T17:30", "2023-1-20T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Top Gun: Maverick",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-1-15T16:00", "2023-1-17T18:30", "2023-1-19T21:20"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "The Woman King",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-1-16T15:30", "2023-1-18T18:15", "2023-1-20T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Blue Beetle",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-1-22T15:30", "2023-1-24T18:15", "2023-1-26T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Emancipation",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-1-23T15:30", "2023-1-25T18:15", "2023-1-27T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Asterix & Obelix: I drakens rike",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Komedi",
+      "salon": "B",
+      "dateTime": ["2023-1-22T15:00", "2023-1-24T17:45", "2023-1-26T20:30"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Shotgun Wedding",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Komedi",
+      "salon": "B",
+      "dateTime": ["2023-1-23T16:15", "2023-1-25T18:45", "2023-1-27T21:15"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "80 for Brady",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Komedi",
+      "salon": "A",
+      "dateTime": ["2023-1-28T15:30", "2023-1-30T18:15", "2023-2-1T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Creed III",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Drama",
+      "salon": "B",
+      "dateTime": ["2023-1-28T15:00", "2023-1-30T17:45", "2023-2-1T20:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "House Party",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Komedi",
+      "salon": "B",
+      "dateTime": ["2023-1-29T15:00", "2023-1-31T17:45", "2023-2-2T20:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Beau is Afraid",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Komedi",
+      "salon": "A",
+      "dateTime": ["2023-2-3T15:00", "2023-2-5T17:45", "2023-2-7T20:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "A Good Person",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Drama",
+      "salon": "A",
+      "dateTime": ["2023-1-29T15:30", "2023-1-31T18:15", "2023-2-2T21:00"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Dominique: Rise of the Phoenix",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "category": "Action",
+      "salon": "A",
+      "dateTime": ["2023-2-3T15:30", "2023-2-5T18:00", "2023-2-7T20:45"],
+      "image": [
+        "https://picsum.photos/200/300",
+        "https://picsum.photos/1200/500"
+      ]
+    }
   ]
 }

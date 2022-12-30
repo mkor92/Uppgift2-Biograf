@@ -1,5 +1,3 @@
-export function booking() {
-
 const bookingRenderContainer = document.querySelector('#booking-render-container');
 
 const saveBookingInfo = () => { 
@@ -18,6 +16,9 @@ const renderBookingSalonTitleDate = (salon, title, time) => {
         <h2>salong ${salon}</h2>
         <h1>${title}</h1>
         <h3>${time}</h3>
+        <div class="buy-button-container">
+            <button>Köp biljetter</button>
+        </div>
     `;
     
     //bookingRenderContainer.appendChild(bookingInfoContainer);
@@ -25,4 +26,3 @@ const renderBookingSalonTitleDate = (salon, title, time) => {
 
 // This should be triggered from an event when you click "biljetter" in the info about movie page.
 saveBookingInfo();
-}
