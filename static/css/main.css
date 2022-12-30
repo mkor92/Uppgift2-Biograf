@@ -216,7 +216,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-  .nav .movies-nav-list:first-child:focus .movies-nav-element {
+.nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -311,4 +311,25 @@ header nav menu .active {
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
+}
+
+.movie {
+  display: flex;
+  justify-content: space-around;
+}
+.movie img {
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+  .movies {
+    align-content: center;
+  }
+  .movies .movie {
+    display: block;
+  }
+  .movies .movie img {
+    justify-items: center;
+  }
 }

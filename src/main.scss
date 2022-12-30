@@ -18,7 +18,7 @@
 
 main {
   width: 100%;
-  min-height: 70vh
+  min-height: 70vh;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
@@ -30,3 +30,4 @@ main {
 @import "sections/footer.scss";
 @import "sections/about-us.scss";
 @import "sections/booking.scss";
+@import "sections/movies.scss";

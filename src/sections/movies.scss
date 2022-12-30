@@ -1,0 +1,22 @@
+.movie {
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    border: 1px solid $second-color;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: $breaking-point) {
+  .movies {
+    align-content: center;
+    .movie {
+      display: block;
+
+      img {
+        justify-items: center;
+      }
+    }
+  }
+}
