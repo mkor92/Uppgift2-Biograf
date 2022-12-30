@@ -298,5 +298,17 @@ header nav menu .active {
 }
 
 #booking-render-container {
-  border-radius: 5px;
+  border-radius: 10px;
+}
+#booking-render-container .buy-button-container {
+  text-align: center;
+}
+#booking-render-container .buy-button-container button {
+  color: white;
+  background-color: #cc0028;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
 }

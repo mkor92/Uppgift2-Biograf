@@ -3,5 +3,19 @@
 }
 
 #booking-render-container {
-    border-radius: 5px;
+    border-radius: 10px;
+
+    .buy-button-container {
+        text-align: center;
+
+        button {
+            color: $second-color;
+            background-color: $default-red;
+            padding: 1rem 2.5rem;;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            border: none;               
+        }
+    }     
 }
