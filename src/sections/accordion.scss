@@ -56,21 +56,25 @@
                 flex-direction: column;
                 z-index: 2;
                 padding-bottom: 3rem;
-
+                
                 h2,
-                h3 { color: $second-color; }
-
+                h3 { 
+                    color: $second-color; 
+                    animation: fadein .5s;
+                }
+                
                 h2 {
                     font-size: 3rem;
                     line-height: .8;
                 }
-
+                
                 h3 {
                     margin-top: .2rem;
                     font-size: 1.5rem;
                 }
-
+                
                 a {
+                    animation: fadein 1s forwards;
                     margin-top: .5rem;
                     width: auto;
                     height: auto;
@@ -93,5 +97,15 @@
                 object-fit: cover;
             }
         }
+    }
+}
+
+@keyframes fadein {
+    from {
+        transform: translateY(150%);
+    }
+
+    to {
+        transform: translateY(0%);
     }
 }

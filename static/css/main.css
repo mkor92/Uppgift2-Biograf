@@ -276,6 +276,7 @@ header nav menu .active {
 .accordion-cont .slider .slide .slide-content h2,
 .accordion-cont .slider .slide .slide-content h3 {
   color: white;
+  animation: fadein 0.5s;
 }
 .accordion-cont .slider .slide .slide-content h2 {
   font-size: 3rem;
@@ -286,6 +287,7 @@ header nav menu .active {
   font-size: 1.5rem;
 }
 .accordion-cont .slider .slide .slide-content a {
+  animation: fadein 1s forwards;
   margin-top: 0.5rem;
   width: auto;
   height: auto;
@@ -306,6 +308,14 @@ header nav menu .active {
   object-fit: cover;
 }
 
+@keyframes fadein {
+  from {
+    transform: translateY(150%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
 .footer {
   background-color: #cc0028;
   height: auto;
