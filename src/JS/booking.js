@@ -1,3 +1,8 @@
+import listenerMenuBtn from "./listeners.js";
+
+listenerMenuBtn();
+
+
 const bookingRenderContainer = document.querySelector('#booking-render-container');
 
 const saveBookingInfo = () => { 
