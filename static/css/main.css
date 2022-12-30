@@ -52,7 +52,7 @@ header nav menu .active {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .header-nav-toggle {
     display: block;
     position: absolute;
@@ -200,7 +200,7 @@ header nav menu .active {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .sec-cont .nav {
     width: 100%;
     display: flex;
@@ -212,7 +212,7 @@ header nav menu .active {
   }
   .sec-cont .nav .movies-nav-list .movies-nav-element {
     width: 85vw;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     border-radius: 0.25rem;
     margin-bottom: 0.15rem;
   }
@@ -232,12 +232,13 @@ header nav menu .active {
 
 .footer-nav {
   display: flex;
+  justify-content: center;
   justify-content: space-evenly;
   margin-top: 1em;
   color: white;
   list-style-type: none;
-  max-width: 1200px;
-  margin: auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .footer-options {
@@ -271,4 +272,35 @@ header nav menu .active {
   .footer {
     height: 7em;
   }
+}
+.main-content {
+  border-radius: 5px;
+  margin: auto;
+  max-width: 808px;
+  margin-bottom: 12em;
+  padding: 0 1rem;
+}
+
+.about-us-text {
+  padding-bottom: 2rem;
+}
+
+.contact-text-about-us {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.about-us-img {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.main-container {
+  width: 100%;
+}
+
+#booking-render-container {
+  border-radius: 5px;
+  margin: auto;
+  max-width: 808px;
 }
