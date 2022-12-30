@@ -191,7 +191,7 @@ header nav menu .active {
   padding: 0.45rem;
   background-color: white;
   position: relative;
-  font-size: larger;
+  font-size: 1rem;
 }
 #menu-id .nav > ul .movies-nav-list .movies-nav-element a {
   color: black;
@@ -223,7 +223,7 @@ header nav menu .active {
     padding: 0.45rem;
     width: 85vw;
     background-color: white;
-    font-size: larger;
+    font-size: 1.2rem;
   }
   #menu-id .nav:not(:first-child) {
     display: none;
@@ -272,6 +272,12 @@ header nav menu .active {
   justify-content: space-between;
   color: white;
   list-style-type: none;
+}
+.footer-nav h1 {
+  font-size: 1.5rem;
+}
+.footer-nav h2 {
+  font-size: 1rem;
 }
 
 .footer-options {
