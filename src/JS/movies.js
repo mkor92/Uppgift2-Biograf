@@ -1,10 +1,33 @@
-async function getJSON() {
-  const response = await fetch("src/filmer.json");
-  const json = await response.json();
-  console.log(json);
+const url = "src/filmer.json";
+const ul = document.querySelector("#movies-list");
+const list = document.createDocumentFragment();
+
+async function getMovies() {
+  try {
+    const response = await fetch(url);
+    const movies = await response.json();
+
+    listData(movies);
+  } catch (error) {
+    console.log(error);
+  }
 }
 
-getJSON();
+function listData(movies) {
+  data.map(function (legend) {
+    const legendText = `
+    <div class="nickname">${legend.nickname}</div> 
+    `;
+    const item = document.createElement("li");
+    item.innerHTML = legendText;
+    list.appendChild(item);
+  });
+  ul.appendChild(list);
+}
+
+/*document.querySelector(".movies").textContent = JSON.stringify(json.movies);*/
+
+getMovies();
 
 /*function addMoviesToDom(challenge) {}
 
