@@ -8,7 +8,17 @@
 
 // Re-usable classes for bigger screens
 .sec {
-  padding: 0 5%;
+  padding: 0 5% !important;
+}
+
+.sec-cont {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  min-height: 70vh
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
@@ -16,6 +26,7 @@
 @import "variables.scss";
 @import "sections/header.scss";
 @import "sections/nav-menu.scss";
+@import "sections/accordion.scss";
 @import "sections/footer.scss";
 @import "sections/about-us.scss";
 @import "sections/booking.scss";
