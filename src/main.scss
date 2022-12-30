@@ -11,8 +11,14 @@
   padding: 0 5%;
 }
 
+.sec-cont {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 main {
   width: 100%;
+  min-height: 70vh
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
