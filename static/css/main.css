@@ -157,7 +157,7 @@ header nav menu .active {
 .sec-cont .mobile-nav-menu {
   display: none;
 }
-.sec-cont .nav {
+.sec-cont .nav > ul {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -200,47 +200,44 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 768px) {
+  .sec-cont {
+    height: fit-content;
+  }
   .sec-cont .mobile-nav-menu {
     display: block;
-    text-decoration: none;
     border: 0.1rem solid black;
     border-radius: 0.25rem;
     text-align: center;
-    margin: 1rem 0 0.15rem 1rem;
+    margin: 0.5rem auto 0.15rem;
     padding: 0.45rem;
-    font-size: larger;
     width: 85vw;
     background-color: #D9D9D9;
   }
-  .sec-cont .nav {
-    width: 100%;
+  .sec-cont .nav:not(:first-child) {
+    display: none;
+  }
+  .sec-cont .nav > ul {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
   }
-  .sec-cont .nav .movies-nav {
+  .sec-cont .nav > ul .movies-nav {
     display: block;
     margin: 0 auto;
   }
-  .sec-cont .nav .movies-nav-list .movies-nav-element {
+  .sec-cont .nav > ul .movies-nav-list .movies-nav-element {
     width: 85vw;
     background-color: #D9D9D9;
     border-radius: 0.25rem;
     margin-bottom: 0.15rem;
   }
-  .sec-cont .nav .movies-nav-list:first-child:hover .movies-nav-element,
-  .sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .sec-cont .nav > ul .movies-nav-list:first-child:hover .movies-nav-element,
+  .sec-cont .nav > ul .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
 }
-.active {
-  visibility: visible;
-}
-
-.inactive {
-  visibility: hidden;
-}
-
 .footer {
   background-color: #cc0028;
   position: fixed;

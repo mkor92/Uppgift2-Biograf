@@ -20,7 +20,7 @@ const renderBookingSalonTitleDate = (salon, title, time) => {
         <h3>${time}</h3>
     `;
     
-    bookingRenderContainer.appendChild(bookingInfoContainer);
+    //bookingRenderContainer.appendChild(bookingInfoContainer);
 }
 
 // This should be triggered from an event when you click "biljetter" in the info about movie page.
