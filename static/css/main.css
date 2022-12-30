@@ -294,9 +294,21 @@ header nav menu .active {
 .main-container {
   width: 100%;
 }
-
-#booking-render-container {
-  border-radius: 5px;
+.main-container #booking-render-container {
+  border-radius: 10px;
   margin: auto;
   max-width: 808px;
+  padding: 1rem;
+}
+.main-container #booking-render-container .buy-button-container {
+  text-align: center;
+}
+.main-container #booking-render-container .buy-button-container button {
+  color: white;
+  background-color: #cc0028;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
 }
