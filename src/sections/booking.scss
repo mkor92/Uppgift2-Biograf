@@ -1,10 +1,44 @@
 .main-container {
     width: 100%;
-}
 
-#booking-render-container {
-    border-radius: 5px;
-    margin: auto;
-    max-width: 808px;
+    #booking-render-container {
+        border-radius: 10px;
+        margin: auto;
+        max-width: 808px;
+        padding: 1rem;
+
+        .choose-seat-container {
+            display: flex;
+            width: 80%;
+            margin: auto;
+            // border: 1px solid black;
+            justify-content: space-between;
+
+            div {
+                display: flex;
+                justify-content: center;
+                border: 1px solid black;
+                width: 2rem;
+                height: 2.5rem;
+                align-items: center;        
+            }
+        }
+
+        
+
+        .buy-button-container {
+            text-align: center;
+
+            button {
+                color: $second-color;
+                background-color: $default-red;
+                padding: 1rem 2.5rem;;
+                border-radius: 10px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                border: none;               
+            }
+        }     
+    }
 }
 
