@@ -32,15 +32,18 @@
 }
 
 @media screen and (max-width: 640px) {
-  h2 {
-    font-size: 0.8em;
-  }
-  li {
-    font-size: 0.8em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-  }
-  .footer {
-    height: 7em;
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+
+    h2 {
+      font-size: 0.8em;
+    }
+    li {
+      font-size: 0.8em;
+    }
   }
 }

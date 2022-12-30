@@ -8,7 +8,7 @@
 }
 
 .sec {
-  padding: 0 5%;
+  padding: 0 5% !important;
 }
 
 .sec-cont {
@@ -258,16 +258,18 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 640px) {
-  h2 {
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  .footer-nav h2 {
     font-size: 0.8em;
   }
-  li {
+  .footer-nav li {
     font-size: 0.8em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-  }
-  .footer {
-    height: 7em;
   }
 }
 .main-content {
