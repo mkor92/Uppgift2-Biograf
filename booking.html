@@ -2,29 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="src/JS/main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/04d50240d2.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>Booking</title>
     <link rel="stylesheet" href="static/css/main.css" />
-    <title>Biograf Luleå</title>
+    <script type="module" src="src/JS/booking.js" defer></script>
   </head>
   <body>
     <header class="sec">
       <div class="header-content-wrap sec-cont">
-        <img src="static/images/Logo.png" alt="logo" />
+        <img src="static/images/logo.png" alt="logo" />
         <nav class="header-nav">
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
             <li>
-              <a class="header-menu-item active" href="index.html">Hem</a>
+              <a class="header-menu-item active" href="/index.html">Hem</a>
             </li>
-            <li>
-              <a class="header-menu-item" href="/about-us.html">Om oss</a>
-            </li>
+            <li><a class="header-menu-item" href="/about-us.html">Om oss</a></li>
             <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
             <li><a class="header-menu-item" href="#">Presentkort</a></li>
           </menu>
@@ -73,15 +66,12 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element"><a href="#">Kontakt</a></li>
-          </ul>
+          </ul> 
         </li>
       </ul>
     </nav>
-    <main>
-      <div class="sec-cont">
-        <section class="accordion-cont">
-        </section>
-      </div>
+    <main class="main-container sec">
+      <div id="booking-render-container" class="sec-cont"></div>
     </main>
     <footer class="footer sec">
       <div class="footer-content sec-cont">
@@ -128,5 +118,6 @@
         </nav>
       </div>
     </footer>
+
   </body>
 </html>

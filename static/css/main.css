@@ -8,7 +8,17 @@
 }
 
 .sec {
-  padding: 0 5%;
+  padding: 0 5% !important;
+}
+
+.sec-cont {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  min-height: 70vh;
 }
 
 header {
@@ -48,7 +58,7 @@ header nav menu .active {
   display: none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .header-nav-toggle {
     display: block;
     position: absolute;
@@ -147,74 +157,158 @@ header nav menu .active {
     margin: 0.5em 0;
   }
 }
-.sec-cont {
-  width: 100%;
-  max-width: 1000px;
-  height: 5rem;
-  margin: 0 auto;
-  padding: 0 5%;
-}
-.sec-cont .nav {
+.nav {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
-.sec-cont .nav .movies-nav {
+.nav .movies-nav {
   list-style-type: none;
   display: inline;
 }
-.sec-cont .nav .movies-nav-list {
+.nav .movies-nav-list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-top: 2vh;
 }
-.sec-cont .nav .movies-nav-list .movies-nav-element {
+.nav .movies-nav-list .movies-nav-element {
   width: fit-content;
   text-decoration: none;
   list-style-type: none;
   border: 0.1rem solid black;
   border-radius: 0.5rem;
   text-align: center;
-  margin: 0 0 0.07rem 1rem;
+  margin-right: 0.5rem;
   padding: 0.45rem;
   background-color: white;
   position: relative;
   font-size: larger;
 }
-.sec-cont .nav .movies-nav-list .movies-nav-element a {
+.nav .movies-nav-list .movies-nav-element a {
   color: black;
 }
-.sec-cont .nav .movies-nav-list .movies-nav-element:not(:first-child) {
+.nav .movies-nav-list .movies-nav-element:not(:first-child) {
   display: none;
 }
-.sec-cont .nav .movies-nav-list:first-child:hover .movies-nav-element {
+.nav .movies-nav-list:first-child:hover .movies-nav-element {
   display: block;
   width: inherit;
 }
-.sec-cont .nav .movies-nav-list:first-child:hover .arrow-top {
+.nav .movies-nav-list:first-child:hover .arrow-top {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
-  .sec-cont .nav {
+@media screen and (max-width: 640px) {
+  .nav {
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .sec-cont .nav .movies-nav {
+  .nav .movies-nav {
     display: block;
     margin: 0 auto;
   }
-  .sec-cont .nav .movies-nav-list .movies-nav-element {
+  .nav .movies-nav-list .movies-nav-element {
     width: 85vw;
-    background-color: #D9D9D9;
+    background-color: #d9d9d9;
     border-radius: 0.25rem;
     margin-bottom: 0.15rem;
   }
-  .sec-cont .nav .movies-nav-list:first-child:hover .movies-nav-element,
-  .sec-cont .nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .nav .movies-nav-list:first-child:hover .movies-nav-element,
+  .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
+}
+.accordion-cont {
+  height: 15rem;
+}
+
+.footer {
+  background-color: #cc0028;
+  height: auto;
+}
+
+.footer-nav {
+  padding: 2rem 0 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  list-style-type: none;
+}
+
+.footer-options {
+  color: white;
+}
+.footer-options:hover {
+  text-decoration: underline;
+}
+
+#footer-facebook-logo {
+  color: white;
+}
+
+#footer-instagram-logo {
+  color: white;
+}
+
+#footer-twitter-logo {
+  color: white;
+}
+
+@media screen and (max-width: 640px) {
+  .footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  .footer-nav h2 {
+    font-size: 0.8em;
+  }
+  .footer-nav li {
+    font-size: 0.8em;
+  }
+}
+.main-content {
+  border-radius: 5px;
+  margin-top: 1em;
+  margin-bottom: 12em;
+}
+
+.about-us-text {
+  padding-bottom: 2rem;
+}
+
+.contact-text-about-us {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.about-us-img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-container {
+  padding: 1rem 0;
+}
+
+#booking-render-container {
+  border-radius: 10px;
+}
+#booking-render-container .buy-button-container {
+  text-align: center;
+}
+#booking-render-container .buy-button-container button {
+  color: white;
+  background-color: #cc0028;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
 }
