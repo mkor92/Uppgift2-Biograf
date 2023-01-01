@@ -404,23 +404,36 @@ header nav menu .active {
   border: none;
 }
 
-.movie {
-  display: flex;
-  justify-content: space-around;
-}
-.movie img {
-  border: 1px solid white;
-  margin-top: 20px;
+.movies-h2 {
+  margin: 10px;
 }
 
+.movies-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  border-top: 1px solid black;
+  max-width: fit-content;
+}
+.movies-list .movie {
+  margin: 0;
+  padding: 0;
+}
+.movies-list .movie img {
+  border: 1px solid white;
+  margin: 5px;
+}
+
+@media screen and (max-width: 950px) {
+  .movies-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 @media screen and (max-width: 640px) {
-  .movies {
-    align-content: center;
+  .movies-list {
+    grid-template-columns: 1fr 1fr;
   }
-  .movies .movie {
-    display: block;
-  }
-  .movies .movie img {
-    justify-items: center;
+  .movies-list img {
+    max-width: 40vw;
   }
 }
