@@ -6,6 +6,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-image: url(/static/images/Background_cinema.jpg);
+  background-size: cover;
+}
+
 // Re-usable classes for bigger screens
 .sec {
   padding: 0 5% !important;
@@ -30,4 +35,5 @@ main {
 @import "sections/footer.scss";
 @import "sections/about-us.scss";
 @import "sections/booking.scss";
-@import "sections/restaurant.scss"
+@import "sections/restaurant.scss";
+@import "sections/salons.scss";
