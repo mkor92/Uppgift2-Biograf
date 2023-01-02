@@ -2,20 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booking</title>
     <link rel="stylesheet" href="static/css/main.css" />
-    <script type="module" src="src/JS/booking.js" defer></script>
+    <script type="module" src="src/JS/main.js"></script>
+    <title>Salong A</title>
   </head>
   <body>
     <header class="sec">
-      <div class="header-content-wrap sec-cont">
+      <div class="header-content-wrap">
         <img src="static/images/logo.png" alt="logo" />
         <nav class="header-nav">
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
             <li>
-              <a class="header-menu-item active" href="/index.html">Hem</a>
+              <a class="header-menu-item" href="/index.html">Hem</a>
             </li>
             <li><a class="header-menu-item" href="/about-us.html">Om oss</a></li>
             <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
@@ -24,41 +25,33 @@
         </nav>
       </div>
     </header>
-    <nav class="sec">
-      <ul class="nav sec-cont">
+    <nav class="sec-cont">
+      <ul class="nav">
         <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="#">Filmer <span class="arrow-top">&#9662;</span></a>
-            </li>
-            <li class="movies-nav-element"><a href="#">Komedi</a></li>
-            <li class="movies-nav-element"><a href="#">Action</a></li>
-            <li class="movies-nav-element"><a href="#">Drama</a></li>
-          </ul>
+            <ul class="movies-nav-list">
+              <li class="movies-nav-element"><a href="#">Filmer <span class="arrow-top">&#9662;</span></a></li>
+              <li class="movies-nav-element"><a href="#">Komedi</a></li>
+              <li class="movies-nav-element"><a href="#">Action</a></li>
+              <li class="movies-nav-element"><a href="#">Drama</a></li>
+            </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="#">Salonger <span class="arrow-top">&#9662;</span></a>
-            </li>
+            <li class="movies-nav-element"><a href="salons.html">Salonger <span class="arrow-top">&#9662;</span></a></li>
             <li class="movies-nav-element"><a href="salonA.html">Salong A</a></li>
             <li class="movies-nav-element"><a href="salonB.html">Salong B</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="#">Restaurang <span class="arrow-top">&#9662;</span></a>
-            </li>
+            <li class="movies-nav-element"><a href="#">Restaurang <span class="arrow-top">&#9662;</span></a></li>
             <li class="movies-nav-element"><a href="#">Boka bord</a></li>
             <li class="movies-nav-element"><a href="#">Vår menu</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="#">Events <span class="arrow-top">&#9662;</span></a>
-            </li>
+            <li class="movies-nav-element"><a href="#">Events <span class="arrow-top">&#9662;</span></a></li>
             <li class="movies-nav-element"><a href="#">Live på bio</a></li>
             <li class="movies-nav-element"><a href="#">Specialvisningar</a></li>
           </ul>
@@ -66,15 +59,29 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element"><a href="#">Kontakt</a></li>
-          </ul> 
+          </ul>
         </li>
       </ul>
     </nav>
-    <main class="main-container sec">
-      <div id="booking-render-container" class="sec-cont"></div>
+    <main class="main-container">
+      <div class="salon-description">
+        <h1 class="salon-header">Salong A</h1>
+        <img src="static/images/Salong_A.jpg" class="salonA"></img>
+        <p class="salon-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus aliquam aliquet. Phasellus eu ex quis 
+          est ultricies convallis. Fusce et orci eu nulla consequat commodo. Pellentesque fringilla mollis justo, sit amet 
+          eleifend mi porttitor a. Cras ac lacus nec enim bibendum fermentum. Nam erat metus, ultricies at ex et, tempor sagittis felis. 
+
+          Cras id aliquet nulla. Ut placerat urna eget velit pharetra, non mollis libero ultricies. 
+          Duis et metus sed nisi commodo egestas. Aenean consequat nec quam vel vehicula. In quis dui mollis, 
+          sollicitudin metus ut, eleifend lacus. Proin a sapien sed ipsum auctor porttitor a vel est. Fusce ut orci 
+          lacinia, sodales nunc ac, scelerisque nisi. Proin ac metus consequat, tincidunt dui tempor, hendrerit elit. 
+          Nam dignissim est ac metus tristique, vitae eleifend orci varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
     </main>
-    <footer class="footer sec">
-      <div class="footer-content sec-cont">
+    <footer class="footer">
+      <div class="footer-content">
         <nav class="footer-nav">
           <div class="footer-row-1">
             <h2 class="footer-luleå-bio">LULEÅ BIO</h2>
@@ -118,6 +125,5 @@
         </nav>
       </div>
     </footer>
-
   </body>
 </html>

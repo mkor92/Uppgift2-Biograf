@@ -451,3 +451,29 @@ header nav menu .active {
     max-width: 40vw;
   }
 }
+.main-container {
+  width: 100%;
+}
+
+.salon-description {
+  max-width: 808px;
+  margin: auto;
+}
+
+.salonA {
+  width: 50%;
+  height: 240px;
+}
+
+.salonB {
+  width: 50%;
+  height: 240px;
+}
+
+.salon-header {
+  margin-top: 0.5em;
+}
+
+.salon-text {
+  margin-bottom: 3em;
+}
