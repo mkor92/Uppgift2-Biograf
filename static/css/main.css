@@ -225,7 +225,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -516,4 +516,37 @@ header nav menu .active {
 
 .salon-text {
   margin-bottom: 3em;
+}
+
+.list-styling {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto 1.5rem auto;
+}
+.list-styling li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+.show-movies h1 {
+  color: white;
+  border-bottom: 2px solid white;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+}
+.show-movies h2 {
+  color: white;
+  border-bottom: 2px solid white;
+  width: 20vw;
+  margin: 1rem 1rem 1rem 0;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 640px) {
+  .list-styling {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
 }
