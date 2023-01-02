@@ -21,6 +21,10 @@ main {
   min-height: 70vh;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 header {
   background-color: #cc0028;
 }
