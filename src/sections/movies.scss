@@ -1,3 +1,7 @@
+.hidden {
+  display: none;
+}
+
 .movies {
   margin: 0px auto;
   padding: auto;
@@ -12,11 +16,23 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
     padding-top: 50px;
+    margin-bottom: 50px;
 
     .movies-list-item {
       max-width: 200px;
       margin: auto;
 
+      p {
+        color: $second-color;
+        margin-top: -40px;
+        margin-left: 5px;
+
+        span {
+          background-color: rgba(0, 0, 0, 0.5);
+          border-radius: 5px;
+          padding: 4px;
+        }
+      }
       img {
         border: 1px solid $second-color;
 

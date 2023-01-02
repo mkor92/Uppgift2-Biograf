@@ -413,6 +413,10 @@ header nav menu .active {
   border: none;
 }
 
+.hidden {
+  display: none;
+}
+
 .movies {
   margin: 0px auto;
   padding: auto;
@@ -428,10 +432,21 @@ header nav menu .active {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 .movies .movies-list .movies-list-item {
   max-width: 200px;
   margin: auto;
+}
+.movies .movies-list .movies-list-item p {
+  color: white;
+  margin-top: -40px;
+  margin-left: 5px;
+}
+.movies .movies-list .movies-list-item p span {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 4px;
 }
 .movies .movies-list .movies-list-item img {
   border: 1px solid white;
