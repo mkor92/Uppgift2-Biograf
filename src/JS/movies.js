@@ -1,8 +1,7 @@
-async function getMovies() {
-  const response = await fetch("src/movies.json");
-  const data = await response.json();
-  const allMovies = data.movies;
+import { getMovies } from "./getMovies.js";
 
+async function renderMovies() {
+  const allMovies = await getMovies();
   for (let i = 0; i < allMovies.length; i++) {
     const ul = document.querySelector(".movies-list");
     const li = document.createElement("li");
@@ -12,4 +11,4 @@ async function getMovies() {
     ul.appendChild(li);
   }
 }
-getMovies();
+renderMovies();
