@@ -230,6 +230,11 @@ header nav menu .active {
   height: 15rem;
 }
 
+@media screen and (max-width: 640px) {
+  .accordion-cont {
+    display: none;
+  }
+}
 .footer {
   background-color: #cc0028;
   height: auto;
