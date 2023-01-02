@@ -11,14 +11,16 @@
   <body>
     <header class="sec">
       <div class="header-content-wrap">
-        <img src="static/images/logo.png" alt="logo" />
+        <img  src="static/images/logo.png" alt="logo" />
         <nav class="header-nav">
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
             <li>
               <a class="header-menu-item active" href="/index.html">Hem</a>
             </li>
-            <li><a class="header-menu-item" href="/about-us.html">Om oss</a></li>
+            <li>
+              <a class="header-menu-item" href="/about-us.html">Om oss</a>
+            </li>
             <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
             <li><a class="header-menu-item" href="#">Presentkort</a></li>
           </menu>
@@ -40,10 +42,16 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="salons.html">Salonger <span class="arrow-top">&#9662;</span></a>
+              <a href="salons.html"
+                >Salonger <span class="arrow-top">&#9662;</span></a
+              >
             </li>
-            <li class="movies-nav-element"><a href="/salonA.html">Salong A</a></li>
-            <li class="movies-nav-element"><a href="/salonB.html">Salong B</a></li>
+            <li class="movies-nav-element">
+              <a href="/salonA.html">Salong A</a>
+            </li>
+            <li class="movies-nav-element">
+              <a href="/salonB.html">Salong B</a>
+            </li>
           </ul>
         </li>
         <li class="movies-nav">
@@ -74,41 +82,56 @@
       </ul>
     </nav>
     <main class="sec">
+      <div class="sec-cont">
+        <section class="accordion-cont">
+        </section>
+      </div>
       <div class="restaurant-container sec-cont">
-        <h2 class="restaurant-text">Luleå bios dine-in bistro</h2>
-        <img class="restaurant" alt="picture of salon with tables" src="static/images/cinebistro.webp" />
-        <p class="restaurant-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          rhoncus aliquam aliquet. Phasellus eu ex quis est ultricies convallis.
-          Fusce et orci eu nulla consequat commodo. Pellentesque fringilla
-          mollis justo, sit amet eleifend mi porttitor a. Cras ac lacus nec enim
-          bibendum fermentum. Nam erat metus, ultricies at ex et, tempor
-          sagittis felis. Cras id aliquet nulla. Ut placerat urna eget velit
-          pharetra, non mollis libero ultricies. Duis et metus sed nisi commodo
-          egestas. Aenean consequat nec quam vel vehicula. In quis dui mollis,
-          sollicitudin metus ut, eleifend lacus. Proin a sapien sed ipsum auctor
-          porttitor a vel est. Fusce ut orci lacinia, sodales nunc ac,
-          scelerisque nisi. Proin ac metus consequat, tincidunt dui tempor,
-          hendrerit elit. Nam dignissim est ac metus tristique, vitae eleifend
-          orci varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-        <div>
-          <ul class="restaurant-text restaurant-info">
-            <li>
-              <h3>Våra öppettider:</h3>
-              <ul>
-                <li>Måndag - fredag 12.00 - 21.00</li>
-                <li>Lördag 10.00 - 23.30</li>
-                <li>Söndag 12.00 - 21.30</li>
-              </ul>
-            </li>
-            <li>
-              <ul>
-              <li class="press-info">Tryck <a href="#">här</a> för att boka bord</li>
-              <li class="press-info">Tryck <a href="#">här</a> för att se vår menu</li>
-              </ul>
-            </li>
-          </ul>
+        <h2 class="restaurant-text res-title">Luleå bios dine-in bistro</h2>
+        <img
+          class="restaurant"
+          alt="picture of salon with tables"
+          src="static/images/cinebistro.webp"
+        />
+        <div class="restaurant-text-container">
+          <p class="restaurant-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+            rhoncus aliquam aliquet. Phasellus eu ex quis est ultricies
+            convallis. Fusce et orci eu nulla consequat commodo. Pellentesque
+            fringilla mollis justo, sit amet eleifend mi porttitor a. Cras ac
+            lacus nec enim bibendum fermentum. Nam erat metus, ultricies at ex
+            et, tempor sagittis felis. Cras id aliquet nulla. Ut placerat urna
+            eget velit pharetra, non mollis libero ultricies. Duis et metus sed
+            nisi commodo egestas. Aenean consequat nec quam vel vehicula. In
+            quis dui mollis, sollicitudin metus ut, eleifend lacus. Proin a
+            sapien sed ipsum auctor porttitor a vel est. Fusce ut orci lacinia,
+            sodales nunc ac, scelerisque nisi. Proin ac metus consequat,
+            tincidunt dui tempor, hendrerit elit. Nam dignissim est ac metus
+            tristique, vitae eleifend orci varius. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
+          </p>
+          <div>
+            <ul class="restaurant-text restaurant-info">
+              <li>
+                <h3>Våra öppettider:</h3>
+                <ul>
+                  <li>Måndag - fredag 12.00 - 21.00</li>
+                  <li>Lördag 10.00 - 23.30</li>
+                  <li>Söndag 12.00 - 21.30</li>
+                </ul>
+              </li>
+              <li>
+                <ul>
+                  <li class="press-info">
+                    Tryck <a href="#">här</a> för att boka bord
+                  </li>
+                  <li class="press-info">
+                    Tryck <a href="#">här</a> för att se vår menu
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>

@@ -320,10 +320,28 @@ header nav menu .active {
 
 .restaurant {
   border: 2px solid white;
+  margin: 1.5rem;
 }
 
 .restaurant-text {
   color: white;
+}
+
+.restaurant-text-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 60ch;
+  text-align: left;
+  margin: 1rem;
+}
+
+.res-title {
+  border-bottom: 3px solid white;
+  margin: 1.5rem auto 1.5rem auto;
+  text-align: left;
+  padding-bottom: 0.5rem;
 }
 
 .restaurant-info {
@@ -343,6 +361,22 @@ header nav menu .active {
   text-decoration: underline;
 }
 
+@media screen and (max-width: 640px) {
+  .restaurant {
+    width: 85vw;
+    margin: 1rem;
+  }
+  .res-title {
+    border-bottom: 3px solid white;
+    margin: 1.5rem auto 1.5rem auto;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  .restaurant-text-container {
+    padding: 1rem;
+    width: 85vw;
+  }
+}
 .main-container {
   width: 100%;
 }
