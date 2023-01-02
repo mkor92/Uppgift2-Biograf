@@ -7,6 +7,11 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-image: url(/static/images/Background_cinema.jpg);
+  background-size: cover;
+}
+
 .sec {
   padding: 0 5% !important;
 }
@@ -19,6 +24,10 @@
 main {
   width: 100%;
   min-height: 70vh;
+}
+
+.logo {
+  cursor: pointer;
 }
 
 header {
@@ -257,9 +266,100 @@ header nav menu .active {
   }
 }
 .accordion-cont {
-  height: 15rem;
+  margin-top: 1rem;
+  width: 100%;
+  height: auto;
+  position: relative;
+  border: 8px solid black;
+}
+.accordion-cont .slide-btn {
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  background-color: rgba(0, 255, 255, 0);
+  border: none;
+  outline: none;
+}
+.accordion-cont .slide-btn img {
+  width: 2rem;
+  height: 2rem;
+}
+.accordion-cont .slide-btn.prev {
+  left: 0;
+}
+.accordion-cont .slide-btn.next {
+  right: 0;
+}
+.accordion-cont .slider {
+  height: 20rem;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.accordion-cont .slider::-webkit-scrollbar {
+  display: none;
+}
+.accordion-cont .slider .slide {
+  cursor: grab;
+  min-width: 100%;
+  height: inherit;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.accordion-cont .slider .slide .slide-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  z-index: 2;
+  padding-bottom: 3rem;
+}
+.accordion-cont .slider .slide .slide-content h2,
+.accordion-cont .slider .slide .slide-content h3 {
+  color: white;
+  animation: fadein 0.5s;
+}
+.accordion-cont .slider .slide .slide-content h2 {
+  font-size: 3rem;
+  line-height: 0.8;
+}
+.accordion-cont .slider .slide .slide-content h3 {
+  margin-top: 0.2rem;
+  font-size: 1.5rem;
+}
+.accordion-cont .slider .slide .slide-content a {
+  animation: fadein 1s forwards;
+  margin-top: 0.5rem;
+  width: auto;
+  height: auto;
+  position: unset;
+  color: white;
+  background-color: rgb(23, 23, 23);
+  padding: 0.5rem 4rem;
+  border: 1px solid white;
+}
+.accordion-cont .slider .slide img {
+  pointer-events: none;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
 }
 
+@keyframes fadein {
+  from {
+    transform: translateY(150%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
 .footer {
   background-color: #cc0028;
   height: auto;
@@ -340,9 +440,40 @@ header nav menu .active {
 
 #booking-render-container {
   border-radius: 10px;
+  margin: auto;
+  max-width: 808px;
+  padding: 1rem;
+}
+#booking-render-container .booking-step-1-start {
+  margin-top: 1rem;
+}
+#booking-render-container .movie-screen {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  border: 3px solid black;
+  margin-bottom: 3rem;
+}
+#booking-render-container .choose-seat-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+#booking-render-container .choose-seat-container div {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  width: 3.5rem;
+  height: 3.5rem;
+  align-items: center;
+  border-radius: 10px;
 }
 #booking-render-container .buy-button-container {
   text-align: center;
+  margin-top: 2rem;
 }
 #booking-render-container .buy-button-container button {
   color: white;
@@ -352,4 +483,78 @@ header nav menu .active {
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
+}
+
+.movies {
+  margin: 0px auto;
+  padding: auto;
+}
+.movies .movies-h2 {
+  margin: 20px 0px 10px;
+  color: white;
+}
+.movies .movies-list {
+  border-top: 1px solid white;
+  display: grid;
+  grid-row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  padding-top: 50px;
+}
+.movies .movies-list .movies-list-item {
+  max-width: 200px;
+  margin: auto;
+}
+.movies .movies-list .movies-list-item img {
+  border: 1px solid white;
+}
+.movies .movies-list .movies-list-item img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .movies {
+    max-width: 100vw;
+  }
+  .movies .movies-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .movies .movies-list img {
+    max-width: 25vw;
+  }
+}
+@media screen and (max-width: 640px) {
+  .movies .movies-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .movies .movies-list img {
+    max-width: 40vw;
+  }
+}
+.main-container {
+  width: 100%;
+}
+
+.salon-description {
+  max-width: 808px;
+  margin: auto;
+}
+
+.salonA {
+  width: 50%;
+  height: 240px;
+}
+
+.salonB {
+  width: 50%;
+  height: 240px;
+}
+
+.salon-header {
+  margin-top: 0.5em;
+}
+
+.salon-text {
+  margin-bottom: 3em;
 }
