@@ -318,6 +318,31 @@ header nav menu .active {
   border: none;
 }
 
+.restaurant {
+  border: 2px solid white;
+}
+
+.restaurant-text {
+  color: white;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.restaurant-info li {
+  list-style-type: none;
+}
+.restaurant-info li .press-info {
+  margin: 1rem;
+}
+.restaurant-info li .press-info a {
+  color: white;
+  text-decoration: underline;
+}
+
 .main-container {
   width: 100%;
 }

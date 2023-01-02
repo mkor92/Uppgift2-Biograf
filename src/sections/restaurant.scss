@@ -1,0 +1,25 @@
+.restaurant {
+  border: 2px solid white;
+}
+
+.restaurant-text {
+  color: $second-color;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+  li {
+    list-style-type: none;
+    .press-info {
+        margin: 1rem;
+      a {
+        color: $second-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
