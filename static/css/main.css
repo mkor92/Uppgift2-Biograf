@@ -296,20 +296,20 @@ header nav menu .active {
 .main-container {
   padding: 1rem 0;
 }
-<<<<<<< HEAD
-.main-container #booking-render-container {
+
+#booking-render-container {
   border-radius: 10px;
   margin: auto;
   max-width: 808px;
   padding: 1rem;
 }
-.main-container #booking-render-container .choose-seat-container {
+#booking-render-container .choose-seat-container {
   display: flex;
   width: 80%;
   margin: auto;
   justify-content: space-between;
 }
-.main-container #booking-render-container .choose-seat-container div {
+#booking-render-container .choose-seat-container div {
   display: flex;
   justify-content: center;
   border: 1px solid black;
@@ -317,20 +317,10 @@ header nav menu .active {
   height: 2.5rem;
   align-items: center;
 }
-.main-container #booking-render-container .buy-button-container {
-  text-align: center;
-}
-.main-container #booking-render-container .buy-button-container button {
-=======
-
-#booking-render-container {
-  border-radius: 10px;
-}
 #booking-render-container .buy-button-container {
   text-align: center;
 }
 #booking-render-container .buy-button-container button {
->>>>>>> main
   color: white;
   background-color: #cc0028;
   padding: 1rem 2.5rem;
