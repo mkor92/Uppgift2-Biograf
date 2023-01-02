@@ -5,15 +5,39 @@ export default function listenerMenuBtn() {
 
   navMenu.addEventListener("click", () => {
     let navSpan = document.querySelector(".mobile-nav-menu span");
-    let navContainer = document.querySelector(".nav");
+    let navContainer = document.querySelector("#nav-box");
 
-    if (navContainer.style.display === "block") {
+    if (navContainer.style.display === "none") {
+      navContainer.style.display = "block";
+      navSpan.innerHTML = "&#9652;";
+    } else {
+
       navContainer.style.display = "none";
       navSpan.classList.remove(".arrow-top");
       navSpan.innerHTML = "&#9662;";
-    } else {
-      navContainer.style.display = "block";
-      navSpan.innerHTML = "&#9652;";
     }
   });
+}
+
+let activate;
+
+function notOpenLink(event) {
+  let activate = true;
+  event.preventDefault();
+}
+
+export function notOpen() {
+document.querySelector(".movies-nav-element a").addEventListener("click", notOpenLink);
+}
+
+function openLink (event) {
+  if (activate == true) {
+    notOpen() = false;
+  }
+  activate = false
+}
+
+
+export function openLinks() {
+  document.querySelector(".movies-nav-element a").addEventListener("click", openLink);
 }
