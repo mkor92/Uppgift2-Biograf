@@ -303,22 +303,36 @@ header nav menu .active {
   max-width: 808px;
   padding: 1rem;
 }
+#booking-render-container .booking-step-1-start {
+  margin-top: 1rem;
+}
+#booking-render-container .movie-screen {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  border: 3px solid black;
+  margin-bottom: 3rem;
+}
 #booking-render-container .choose-seat-container {
   display: flex;
   width: 80%;
   margin: auto;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
 }
 #booking-render-container .choose-seat-container div {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-  width: 2rem;
-  height: 2.5rem;
+  border: 2px solid black;
+  width: 3.5rem;
+  height: 3.5rem;
   align-items: center;
+  border-radius: 10px;
 }
 #booking-render-container .buy-button-container {
   text-align: center;
+  margin-top: 2rem;
 }
 #booking-render-container .buy-button-container button {
   color: white;
