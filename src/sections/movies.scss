@@ -3,9 +3,10 @@
   padding: auto;
   .movies-h2 {
     margin: 20px 0px 10px;
+    color: $second-color;
   }
   .movies-list {
-    border-top: 1px solid black;
+    border-top: 1px solid $second-color;
     display: grid;
     grid-row-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -17,7 +18,7 @@
       margin: auto;
 
       img {
-        border: 1px solid black;
+        border: 1px solid $second-color;
 
         &:hover {
           transform: scale(1.1);

@@ -410,9 +410,10 @@ header nav menu .active {
 }
 .movies .movies-h2 {
   margin: 20px 0px 10px;
+  color: white;
 }
 .movies .movies-list {
-  border-top: 1px solid black;
+  border-top: 1px solid white;
   display: grid;
   grid-row-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -424,7 +425,7 @@ header nav menu .active {
   margin: auto;
 }
 .movies .movies-list .movies-list-item img {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 .movies .movies-list .movies-list-item img:hover {
   transform: scale(1.1);
