@@ -2,20 +2,57 @@
     padding: 1rem 0;
 }
 
-#booking-render-container {
-    border-radius: 10px;
+    #booking-render-container {
+        border-radius: 10px;
+        margin: auto;
+        max-width: 808px;
+        padding: 1rem;
 
-    .buy-button-container {
-        text-align: center;
-
-        button {
-            color: $second-color;
-            background-color: $default-red;
-            padding: 1rem 2.5rem;;
-            border-radius: 10px;
-            font-size: 1.2rem;
-            font-weight: bold;
-            border: none;               
+        .booking-step-1-start {
+            margin-top: 1rem;
         }
-    }     
-}
+
+        .movie-screen {
+            width: 60%;
+            text-align: center;
+            margin: auto;
+            border: 3px solid black;
+            margin-bottom: 3rem;
+        
+        }
+
+        .choose-seat-container {
+            display: flex;
+            width: 80%;
+            margin: auto;
+            // border: 1px solid black;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+
+            div {
+                display: flex;
+                justify-content: center;
+                border: 2px solid black;
+                width: 3.5rem;
+                height: 3.5rem;
+                align-items: center;    
+                border-radius: 10px;    
+            }
+        }
+
+        .buy-button-container {
+            text-align: center;
+            margin-top: 2rem;
+
+            button {
+                color: $second-color;
+                background-color: $default-red;
+                padding: 1rem 2.5rem;;
+                border-radius: 10px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                border: none;               
+            }
+        }     
+    }
