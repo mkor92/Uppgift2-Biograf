@@ -413,13 +413,33 @@ header nav menu .active {
   border: none;
 }
 
-.hidden {
-  display: none;
-}
-
 .movies {
   margin: 0px auto;
   padding: auto;
+}
+.movies div {
+  display: flex;
+  margin-bottom: 1em;
+}
+.movies .movies-category-list {
+  display: flex;
+  margin: 20px 0px 10px;
+}
+.movies .movies-category-list .movies-category-element {
+  width: fit-content;
+  text-decoration: none;
+  list-style-type: none;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  padding: 0.45rem;
+  background-color: white;
+  position: relative;
+  font-size: smaller;
+}
+.movies .movies-category-list .movies-category-element a {
+  color: black;
 }
 .movies .movies-h2 {
   margin: 20px 0px 10px;
@@ -468,6 +488,12 @@ header nav menu .active {
   }
 }
 @media screen and (max-width: 640px) {
+  .movies h2 {
+    padding-left: 5%;
+  }
+  .movies div {
+    display: block;
+  }
   .movies .movies-list {
     grid-template-columns: 1fr 1fr;
   }
