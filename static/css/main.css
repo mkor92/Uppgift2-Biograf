@@ -225,7 +225,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -536,9 +536,23 @@ header nav menu .active {
   width: 100%;
 }
 
+.salons {
+  max-width: 808px;
+  margin: auto;
+  margin-top: 0.5em;
+}
+
 .salon-description {
   max-width: 808px;
   margin: auto;
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
 }
 
 .salonA {
