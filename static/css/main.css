@@ -512,6 +512,30 @@ header nav menu .active {
   margin: 0px auto;
   padding: auto;
 }
+.movies div {
+  display: flex;
+  margin-bottom: 1em;
+}
+.movies .movies-category-list {
+  display: flex;
+  margin: 20px 0px 10px;
+}
+.movies .movies-category-list .movies-category-element {
+  width: fit-content;
+  text-decoration: none;
+  list-style-type: none;
+  border: 0.1rem solid black;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-right: 0.5rem;
+  padding: 0.45rem;
+  background-color: white;
+  position: relative;
+  font-size: smaller;
+}
+.movies .movies-category-list .movies-category-element a {
+  color: black;
+}
 .movies .movies-h2 {
   margin: 20px 0px 10px;
   color: white;
@@ -523,10 +547,21 @@ header nav menu .active {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 .movies .movies-list .movies-list-item {
   max-width: 200px;
   margin: auto;
+}
+.movies .movies-list .movies-list-item p {
+  color: white;
+  margin-top: -40px;
+  margin-left: 5px;
+}
+.movies .movies-list .movies-list-item p span {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 4px;
 }
 .movies .movies-list .movies-list-item img {
   border: 1px solid white;
@@ -548,6 +583,12 @@ header nav menu .active {
   }
 }
 @media screen and (max-width: 640px) {
+  .movies h2 {
+    padding-left: 5%;
+  }
+  .movies div {
+    display: block;
+  }
   .movies .movies-list {
     grid-template-columns: 1fr 1fr;
   }
