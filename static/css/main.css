@@ -225,7 +225,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-  .nav .movies-nav-list:first-child:focus .movies-nav-element {
+.nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
