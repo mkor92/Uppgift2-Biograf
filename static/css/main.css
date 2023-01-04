@@ -227,7 +227,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -237,7 +237,7 @@ header nav menu .active {
   width: 100%;
   height: auto;
   position: relative;
-  border: 8px solid black;
+  border: 8px solid rgb(255, 255, 255);
 }
 .accordion-cont .slide-btn {
   position: absolute;
@@ -247,16 +247,34 @@ header nav menu .active {
   background-color: rgba(0, 255, 255, 0);
   border: none;
   outline: none;
+  cursor: pointer;
+  z-index: 2;
 }
 .accordion-cont .slide-btn img {
   width: 2rem;
   height: 2rem;
 }
 .accordion-cont .slide-btn.prev {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
   left: 0;
+  opacity: 0.5;
+}
+.accordion-cont .slide-btn.prev:hover {
+  opacity: 1;
+}
+.accordion-cont .slide-btn.prev > img {
+  filter: invert(95%);
 }
 .accordion-cont .slide-btn.next {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5) 0, rgba(0, 0, 0, 0.0001) 100%);
   right: 0;
+  opacity: 0.5;
+}
+.accordion-cont .slide-btn.next:hover {
+  opacity: 1;
+}
+.accordion-cont .slide-btn.next > img {
+  filter: invert(95%);
 }
 .accordion-cont .slider {
   height: 20rem;
@@ -268,7 +286,7 @@ header nav menu .active {
   display: none;
 }
 .accordion-cont .slider .slide {
-  cursor: grab;
+  transition: margin 800ms ease-out;
   min-width: 100%;
   height: inherit;
   position: relative;
@@ -281,12 +299,15 @@ header nav menu .active {
   justify-content: flex-end;
   align-items: flex-start;
   flex-direction: column;
-  z-index: 2;
+  z-index: 1;
   padding-bottom: 3rem;
 }
 .accordion-cont .slider .slide .slide-content h2,
 .accordion-cont .slider .slide .slide-content h3 {
   color: white;
+  pointer-events: none;
+}
+.accordion-cont .slider .slide .slide-content .header-anim {
   animation: fadein 0.5s;
 }
 .accordion-cont .slider .slide .slide-content h2 {
@@ -298,7 +319,6 @@ header nav menu .active {
   font-size: 1.5rem;
 }
 .accordion-cont .slider .slide .slide-content a {
-  animation: fadein 1s forwards;
   margin-top: 0.5rem;
   width: auto;
   height: auto;
@@ -307,6 +327,9 @@ header nav menu .active {
   background-color: rgb(23, 23, 23);
   padding: 0.5rem 4rem;
   border: 1px solid white;
+}
+.accordion-cont .slider .slide .slide-content .btn-anim {
+  animation: fadein 1s forwards;
 }
 .accordion-cont .slider .slide img {
   pointer-events: none;
@@ -720,3 +743,7 @@ header nav menu .active {
   color: #cc0028;
 }
 
+
+.salon-text {
+  margin-bottom: 3em;
+}
