@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image: url("static/images/Background_cinema.jpg");
+  background-image: url("../images/Background_cinema.jpg");
   background-size: cover;
 }
 
@@ -698,18 +698,29 @@ h1 {
     overflow: auto;
   }
 }
+.under-construction-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 60ch;
+  text-align: left;
+  margin: 1rem;
+}
+
 .under-construction-heading {
-  margin: 3rem;
   text-align: center;
 }
 
 .under-construction-icon-container {
+  margin-top: 2.5rem;
   text-align: center;
 }
 
 .under-construction-btn-container {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
 }
 
 .under-construction-link-home {
@@ -720,4 +731,8 @@ h1 {
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
+}
+
+.fa-wrench {
+  color: #cc0028;
 }
