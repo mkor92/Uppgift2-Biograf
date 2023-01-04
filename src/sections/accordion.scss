@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    border: 8px solid black;
+    border: 8px solid rgb(255, 255, 255);
 
     // Buttons
     .slide-btn {
@@ -14,6 +14,8 @@
         background-color: rgba(0, 255, 255, 0);
         border: none;
         outline: none;
+        cursor: pointer;
+        z-index: 2;
 
         img {
             width: 2rem;
@@ -21,11 +23,27 @@
         }
 
         &.prev {
+            background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
             left: 0;
+            opacity: .5;
+            &:hover {
+                opacity: 1;
+            }
+            >img {
+                filter: invert(95%);
+            }
         }
-
+        
         &.next {
+            background-image: linear-gradient(to left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
             right: 0;
+            opacity: .5;
+            &:hover {
+                opacity: 1;
+            }
+            >img {
+                filter: invert(95%);
+            }
         }
     }
 
@@ -41,7 +59,7 @@
         }
 
         .slide {
-            cursor: grab;
+            transition: margin 800ms ease-out;
             min-width: 100%;
             height: inherit;
             position: relative;
@@ -54,27 +72,30 @@
                 justify-content: flex-end;
                 align-items: flex-start;
                 flex-direction: column;
-                z-index: 2;
+                z-index: 1;
                 padding-bottom: 3rem;
-                
+
                 h2,
-                h3 { 
-                    color: $second-color; 
+                h3 {
+                    color: $second-color;
+                    pointer-events: none;
+                }
+
+                .header-anim {
                     animation: fadein .5s;
                 }
-                
+
                 h2 {
                     font-size: 3rem;
                     line-height: .8;
                 }
-                
+
                 h3 {
                     margin-top: .2rem;
                     font-size: 1.5rem;
                 }
-                
+
                 a {
-                    animation: fadein 1s forwards;
                     margin-top: .5rem;
                     width: auto;
                     height: auto;
@@ -83,6 +104,10 @@
                     background-color: rgb(23, 23, 23);
                     padding: .5rem 4rem;
                     border: 1px solid $second-color;
+                }
+
+                .btn-anim {
+                    animation: fadein 1s forwards;
                 }
             }
 
@@ -107,5 +132,11 @@
 
     to {
         transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: $breaking-point) {
+    .accordion-cont {
+        display: none;
     }
 }

@@ -17,6 +17,14 @@
       list-style-type: none;
       display: inline;
     }
+      border: 0.1rem solid black;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      padding: 0.45rem;
+      background-color: $second-color;
+      position: relative;
+      font-size: larger;
 
     .movies-nav-list {
       display: flex;

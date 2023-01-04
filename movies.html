@@ -17,7 +17,7 @@
   <body>
     <header class="sec">
       <div class="header-content-wrap sec-cont">
-        <a href="/index.html" class="logo"
+        <a href="index.html" class="logo"
           ><img src="static/images/Logo.png" alt="logo"
         /></a>
         <nav class="header-nav">
@@ -27,10 +27,10 @@
               <a class="header-menu-item" href="index.html">Hem</a>
             </li>
             <li>
-              <a class="header-menu-item" href="/about-us.html">Om oss</a>
+              <a class="header-menu-item" href="about-us.html">Om oss</a>
             </li>
-            <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
-            <li><a class="header-menu-item" href="#">Presentkort</a></li>
+            <li><a class="header-menu-item" href="under-construction.html">Biljettinfo</a></li>
+            <li><a class="header-menu-item" href="under-construction.html">Presentkort</a></li>
           </menu>
         </nav>
       </div>
@@ -39,68 +39,73 @@
       <button class="mobile-nav-menu">
         Meny <span class="arrow-top" id="menu-span">&#9662;</span>
       </button>
-      <div class="nav sec-cont" id="nav-box">
-        <ul>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element">
-                <a href="movies.html" id="filmer-id"
-                  >Filmer <span class="arrow-top">&#9662;</span></a
-                >
-              </li>
-              <li class="movies-nav-element"><a href="#">Komedi</a></li>
-              <li class="movies-nav-element"><a href="#">Action</a></li>
-              <li class="movies-nav-element"><a href="#">Drama</a></li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element">
-                <a href="salons.html"
-                  >Salonger <span class="arrow-top">&#9662;</span></a
-                >
-              </li>
-              <li class="movies-nav-element">
-                <a href="salonA.html">Salong A</a>
-              </li>
-              <li class="movies-nav-element">
-                <a href="salonB.html">Salong B</a>
-              </li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element">
-                <a href="#"
-                  >Restaurang <span class="arrow-top">&#9662;</span></a
-                >
-              </li>
-              <li class="movies-nav-element"><a href="#">Boka bord</a></li>
-              <li class="movies-nav-element"><a href="#">Vår menu</a></li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element">
-                <a href="#">Events <span class="arrow-top">&#9662;</span></a>
-              </li>
-              <li class="movies-nav-element"><a href="#">Live på bio</a></li>
-              <li class="movies-nav-element">
-                <a href="#">Specialvisningar</a>
-              </li>
-            </ul>
-          </li>
-          <li class="movies-nav">
-            <ul class="movies-nav-list">
-              <li class="movies-nav-element"><a href="#">Kontakt</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+      <div class="nav sec-cont">
+      <ul>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="movies.html" class="show-all-movies">Filmer </a>
+            </li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="salons.html" id="salons-id"
+                >Salonger <span class="arrow-top">&#9662;</span></a
+              >
+            </li>
+            <li class="movies-nav-element">
+              <a href="salonA.html">Salong A</a>
+            </li>
+            <li class="movies-nav-element">
+              <a href="salonB.html">Salong B</a>
+            </li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="restaurant.html">Restaurang <span class="arrow-top">&#9662;</span></a>
+            </li>
+            <li class="movies-nav-element"><a href="under-construction.html">Boka bord</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Vår menu</a></li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Events <span class="arrow-top">&#9662;</span></a>
+            </li>
+            <li class="movies-nav-element"><a href="under-construction.html">Live på bio</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Specialvisningar</a></li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
+            <li class="movies-nav-element"><a href="under-construction.html">Kontakt</a></li>
+          </ul>
+        </li>
+      </ul>
     </nav>
     <main class="movies sec">
       <section class="movies-content sec-cont">
-        <h2 class="movies-h2">Alla filmer</h2>
+        <div>
+          <h2 class="movies-h2"></h2>
+          <nav class="sec">
+            <ul class="movies-category-list">
+              <li class="movies-category-element">
+                <a href="movies.html" class="comedy-category">Komedi</a>
+              </li>
+              <li class="movies-category-element">
+                <a href="movies.html" class="action-category">Action</a>
+              </li>
+              <li class="movies-category-element">
+                <a href="movies.html" class="drama-category">Drama</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <ul class="movies-list"></ul>
       </section>
     </main>
