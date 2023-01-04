@@ -39,13 +39,8 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="movies.html"
-                >Filmer <span class="arrow-top">&#9662;</span></a
-              >
+              <a href="movies.html" class="show-all-movies">Filmer </a>
             </li>
-            <li class="movies-nav-element"><a href="#">Komedi</a></li>
-            <li class="movies-nav-element"><a href="#">Action</a></li>
-            <li class="movies-nav-element"><a href="#">Drama</a></li>
           </ul>
         </li>
         <li class="movies-nav">
@@ -90,7 +85,22 @@
     </nav>
     <main class="movies sec">
       <section class="movies-content sec-cont">
-        <h2 class="movies-h2">Alla filmer</h2>
+        <div>
+          <h2 class="movies-h2"></h2>
+          <nav class="sec">
+            <ul class="movies-category-list">
+              <li class="movies-category-element">
+                <a href="movies.html" class="comedy-category">Komedi</a>
+              </li>
+              <li class="movies-category-element">
+                <a href="movies.html" class="action-category">Action</a>
+              </li>
+              <li class="movies-category-element">
+                <a href="movies.html" class="drama-category">Drama</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <ul class="movies-list"></ul>
       </section>
     </main>
