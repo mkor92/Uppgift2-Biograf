@@ -134,3 +134,9 @@
         transform: translateY(0%);
     }
 }
+
+@media screen and (max-width: $breaking-point) {
+    .accordion-cont {
+        display: none;
+    }
+}

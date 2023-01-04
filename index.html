@@ -5,6 +5,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="src/JS/main.js"></script>
+
     <script
       src="https://kit.fontawesome.com/04d50240d2.js"
       crossorigin="anonymous"
@@ -16,7 +17,7 @@
   <body>
     <header class="sec">
       <div class="header-content-wrap sec-cont">
-        <a href="/index.html" class="logo"
+        <a href="index.html" class="logo"
           ><img src="static/images/Logo.png" alt="logo"
         /></a>
         <nav class="header-nav">
@@ -26,10 +27,10 @@
               <a class="header-menu-item active" href="index.html">Hem</a>
             </li>
             <li>
-              <a class="header-menu-item" href="/about-us.html">Om oss</a>
+              <a class="header-menu-item" href="about-us.html">Om oss</a>
             </li>
-            <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
-            <li><a class="header-menu-item" href="#">Presentkort</a></li>
+            <li><a class="header-menu-item" href="under-construction.html">Biljettinfo</a></li>
+            <li><a class="header-menu-item" href="under-construction.html">Presentkort</a></li>
           </menu>
         </nav>
       </div>
@@ -39,19 +40,14 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="/movies.html"
-                >Filmer <span class="arrow-top">&#9662;</span></a
-              >
+              <a href="movies.html" class="show-all-movies">Filmer </a>
             </li>
-            <li class="movies-nav-element"><a href="#">Komedi</a></li>
-            <li class="movies-nav-element"><a href="#">Action</a></li>
-            <li class="movies-nav-element"><a href="#">Drama</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="/salons.html"
+              <a href="salons.html"
                 >Salonger <span class="arrow-top">&#9662;</span></a
               >
             </li>
@@ -66,39 +62,43 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="#">Restaurang <span class="arrow-top">&#9662;</span></a>
+              <a href="restaurant.html"
+                >Restaurang <span class="arrow-top">&#9662;</span></a
+              >
             </li>
-            <li class="movies-nav-element"><a href="#">Boka bord</a></li>
-            <li class="movies-nav-element"><a href="#">Vår menu</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Boka bord</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Vår menu</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="#">Events <span class="arrow-top">&#9662;</span></a>
+              <a href="under-construction.html">Events <span class="arrow-top">&#9662;</span></a>
             </li>
-            <li class="movies-nav-element"><a href="#">Live på bio</a></li>
-            <li class="movies-nav-element"><a href="#">Specialvisningar</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Live på bio</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Specialvisningar</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element"><a href="#">Kontakt</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Kontakt</a></li>
           </ul>
         </li>
       </ul>
     </nav>
 
-    <main class="sec">
+    <main class="sec clear-main">
       <div class="sec-cont">
         <!-- Movie Accordion -->
         <section class="accordion-cont">
           <!-- Next / Before Buttons -->
           <button class="slide-btn prev">
+
             <img src="static/images/arrow-left-circle.svg" alt="previosly movie" />
           </button>
           <button class="slide-btn next">
             <img src="static/images/arrow-right-circle.svg" alt="next movie" />
+
           </button>
 
           <!-- Sliders -->
@@ -151,7 +151,21 @@
           </div>
         </section>
       </div>
+
       <script src="src/JS/accordion.js"></script>
+
+
+      <section class="show-movies sec-cont">
+        <h1>PÅ BION JUST NU</h1>
+        <h2>KOMEDI</h2>
+        <ul class="comedy-start-list list-styling"></ul>
+        <h2>ACTION</h2>
+        <ul class="action-start-list list-styling"></ul>
+        <h2>DRAMA</h2>
+        <ul class="drama-start-list list-styling"></ul>
+      </section>
+
+
     </main>
 
     <footer class="footer sec">
