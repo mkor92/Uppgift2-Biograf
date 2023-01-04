@@ -11,7 +11,9 @@
   <body>
     <header class="sec">
       <div class="header-content-wrap">
-        <img src="static/images/Logo.png" alt="logo" />
+        <a href="index.html" class="logo"
+          ><img src="static/images/Logo.png" alt="logo"
+        /></a>
         <nav class="header-nav">
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
@@ -54,7 +56,7 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="restaurant.html"
+              <a id="restaurant-id" href="restaurant.html"
                 >Restaurang <span class="arrow-top">&#9662;</span></a
               >
             </li>
@@ -78,11 +80,48 @@
         </li>
       </ul>
     </nav>
-    <main class="sec">
-      <div class="sec-cont">
-        <section class="accordion-cont"></section>
-      </div>
-      <div class="restaurant-container sec-cont">
+    <main class="sec clear-main">
+        <div class="sec-cont">
+          <!-- Movie Accordion -->
+          <section class="accordion-cont">
+            <!-- Next / Before Buttons -->
+            <button class="slide-btn prev">
+              <img src="static/images/arrow-left-circle.svg" alt="" />
+            </button>
+            <button class="slide-btn next">
+              <img src="static/images/arrow-right-circle.svg" alt="" />
+            </button>
+  
+            <!-- Sliders -->
+            <div class="slider">
+              <section class="slide">
+                <div class="slide-content">
+                  <h2>MOVIE NAME</h2>
+                  <h3>SUBTITLE</h3>
+                  <a href="/" class="slide-btn">Biljetter</a>
+                </div>
+                <img
+                  src="https://biografspegeln.se/media/stills/3005/1024/04e39f44-fc79-42d9-b724-ff8cebc3ef03.jpeg"
+                  alt="movie banner"
+                />
+              </section>
+  
+              <section class="slide">
+                <div class="slide-content">
+                  <h2>MOVIE NAME</h2>
+                  <h3>SUBTITLE</h3>
+                  <a href="/" class="slide-btn">Biljetter</a>
+                </div>
+                <img
+                  src="https://biografspegeln.se/media/stills/2801/1024/57cda8f6-7101-4430-bd5f-95c841e0ac37.jpg"
+                  alt="movie banner"
+                />
+              </section>
+            </div>
+          </section>
+        </div>
+      <section class="show-sidebar-next sec-cont">
+      <div class="restaurant-container">
         <h2 class="restaurant-text res-title">Luleå bios dine-in bistro</h2>
         <img
           class="restaurant"
@@ -130,6 +169,12 @@
           </div>
         </div>
       </div>
+      <div class="sidebar">
+        <h3>Dagens visningar:</h3>
+        <h4 class="todays-date"></h4>
+        <ul class="todays-shows"></ul>
+      </div>
+    </section>
     </main>
     <footer class="footer sec">
       <div class="footer-content sec-cont">
