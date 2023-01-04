@@ -1,0 +1,45 @@
+.sidebar {
+  background-color: $default-red;
+  color: $second-color;
+  width: 26ch;
+  min-height: 20rem;
+  height: fit-content;
+  margin: 6.5rem auto 0 2rem;
+  padding: 1.2rem;
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+
+  li {
+    list-style-type: none;
+    .sidebar-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      text-decoration: none;
+      color: $second-color;
+      p {
+        padding-right: 0.5rem;
+      }
+    }
+  }
+}
+
+.show-sidebar-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: $breaking-point) {
+  .sidebar {
+    display: none;
+  }
+}

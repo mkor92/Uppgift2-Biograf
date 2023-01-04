@@ -563,6 +563,17 @@ header nav menu .active {
     padding: 1rem;
     width: 85vw;
   }
+  .restaurant-info {
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+  }
+  .restaurant-info ul {
+    margin-top: 1rem;
+  }
+  .restaurant-info ul .press-info {
+    margin: 0;
+  }
 }
 .movies {
   margin: 0px auto;
@@ -694,13 +705,26 @@ header nav menu .active {
 }
 .list-styling li {
   list-style-type: none;
-  margin: 1rem;
+  margin: 0.5rem;
+}
+.list-styling li img {
+  border: 3px solid white;
+  max-width: 200px;
+}
+.list-styling li img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
+.show-movies {
+  display: flex;
+  flex-direction: row;
+}
 .show-movies h1 {
   color: white;
   border-bottom: 2px solid white;
   margin: 1.5rem 1.5rem 1.5rem 0;
+  min-width: 100%;
 }
 .show-movies h2 {
   color: white;
@@ -715,6 +739,48 @@ header nav menu .active {
   .list-styling {
     flex-wrap: nowrap;
     overflow: auto;
+  }
+}
+.sidebar {
+  background-color: #cc0028;
+  color: white;
+  width: 26ch;
+  min-height: 20rem;
+  height: fit-content;
+  margin: 6.5rem auto 0 2rem;
+  padding: 1.2rem;
+}
+.sidebar h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.sidebar h4 {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+.sidebar li {
+  list-style-type: none;
+}
+.sidebar li .sidebar-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-decoration: none;
+  color: white;
+}
+.sidebar li .sidebar-links p {
+  padding-right: 0.5rem;
+}
+
+.show-sidebar-next {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 640px) {
+  .sidebar {
+    display: none;
   }
 }
 .under-construction-container {

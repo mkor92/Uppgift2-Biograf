@@ -6,15 +6,29 @@
   margin: 0 auto 1.5rem auto;
   li {
     list-style-type: none;
-    margin: 1rem;
+    margin: 0.5rem;
+    img{
+    border: 3px solid white;
+    max-width: 200px;
+    }
+  
+    img:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
   }
-}
+  }
+
 
 .show-movies {
+  display: flex;
+    flex-direction: row;
+
   h1 {
     color: $second-color;
     border-bottom: 2px solid white;
     margin: 1.5rem 1.5rem 1.5rem 0;
+    min-width: 100%;
   }
   h2 {
     color: $second-color;
@@ -25,6 +39,7 @@
     font-size: 1rem;
   }
 }
+
 
 @media screen and (max-width: $breaking-point) {
   .list-styling {
