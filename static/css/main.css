@@ -448,7 +448,17 @@ header nav menu .active {
   border-radius: 10px;
   margin: auto;
   max-width: 808px;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#booking-render-container h1,
+#booking-render-container h2,
+#booking-render-container h3 {
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 #booking-render-container .booking-step-1-start {
   margin-top: 1rem;
@@ -459,6 +469,8 @@ header nav menu .active {
   margin: auto;
   border: 3px solid black;
   margin-bottom: 3rem;
+  font-weight: bold;
+  color: black;
 }
 #booking-render-container .choose-seat-container {
   display: flex;
@@ -471,11 +483,13 @@ header nav menu .active {
 #booking-render-container .choose-seat-container div {
   display: flex;
   justify-content: center;
-  border: 2px solid black;
+  border: 3px solid black;
   width: 3.5rem;
   height: 3.5rem;
   align-items: center;
   border-radius: 10px;
+  font-weight: bold;
+  color: black;
 }
 #booking-render-container .buy-button-container {
   text-align: center;
@@ -702,7 +716,6 @@ header nav menu .active {
     flex-wrap: nowrap;
     overflow: auto;
   }
-
 }
 .under-construction-container {
   background-color: rgba(255, 255, 255, 0.3);
@@ -741,9 +754,4 @@ header nav menu .active {
 
 .fa-wrench {
   color: #cc0028;
-}
-
-
-.salon-text {
-  margin-bottom: 3em;
 }
