@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url(/static/images/Background_cinema.jpg);
+  background-image: url("static/images/Background_cinema.jpg");
   background-size: cover;
 }
 
@@ -38,3 +38,4 @@ main {
 @import "sections/restaurant.scss";
 @import "sections/movies.scss";
 @import "sections/salons.scss";
+@import "sections/movies-startsida.scss";
