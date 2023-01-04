@@ -43,7 +43,14 @@
 
 @media screen and (max-width: $breaking-point) {
   .list-styling {
-    flex-wrap: nowrap;
-    overflow: auto;
+   li {
+    img {
+      width: 40vw;
+      height: auto;
+    }
+    img:hover {
+      cursor: pointer;
+    }
+   }
   }
 }

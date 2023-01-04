@@ -722,9 +722,12 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 640px) {
-  .list-styling {
-    flex-wrap: nowrap;
-    overflow: auto;
+  .list-styling li img {
+    width: 40vw;
+    height: auto;
+  }
+  .list-styling li img:hover {
+    cursor: pointer;
   }
 }
 .sidebar {
