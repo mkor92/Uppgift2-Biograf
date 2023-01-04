@@ -3,7 +3,10 @@ import { getMovies } from "./getMovies.js";
 
 mobileMenu();
 
-if (location === "https://mkor92.github.io/Uppgift2-Biograf/" || location === "https://mkor92.github.io/Uppgift2-Biograf/index.html") {
+if (
+  location === "https://mkor92.github.io/Uppgift2-Biograf/" ||
+  location === "https://mkor92.github.io/Uppgift2-Biograf/index.html"
+) {
   (async function () {
     let moviesArray = await getMovies();
 
