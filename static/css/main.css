@@ -225,7 +225,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -323,6 +323,11 @@ header nav menu .active {
   }
   to {
     transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 640px) {
+  .accordion-cont {
+    display: none;
   }
 }
 .footer {
@@ -444,6 +449,65 @@ header nav menu .active {
   border: none;
 }
 
+.restaurant {
+  border: 2px solid white;
+  margin: 1.5rem;
+}
+
+.restaurant-text {
+  color: white;
+}
+
+.restaurant-text-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  width: 60ch;
+  text-align: left;
+  margin: 1rem;
+}
+
+.res-title {
+  border-bottom: 3px solid white;
+  margin: 1.5rem auto 1.5rem auto;
+  text-align: left;
+  padding-bottom: 0.5rem;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2rem;
+}
+.restaurant-info li {
+  list-style-type: none;
+}
+.restaurant-info li .press-info {
+  margin: 1rem;
+}
+.restaurant-info li .press-info a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 640px) {
+  .restaurant {
+    width: 85vw;
+    margin: 1rem;
+  }
+  .res-title {
+    border-bottom: 3px solid white;
+    margin: 1.5rem auto 1.5rem auto;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  .restaurant-text-container {
+    padding: 1rem;
+    width: 85vw;
+  }
+}
 .movies {
   margin: 0px auto;
   padding: auto;
