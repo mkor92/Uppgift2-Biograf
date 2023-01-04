@@ -10,6 +10,9 @@
 body {
   background-image: url("static/images/Background_cinema.jpg");
   background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .sec {
@@ -23,7 +26,6 @@ body {
 
 main {
   width: 100%;
-  min-height: 70vh;
 }
 
 .logo {
@@ -332,7 +334,7 @@ header nav menu .active {
 }
 .footer {
   background-color: #cc0028;
-  height: auto;
+  margin-top: auto;
 }
 
 .footer-nav {
@@ -380,7 +382,6 @@ header nav menu .active {
 .main-content {
   border-radius: 5px;
   margin-top: 1em;
-  margin-bottom: 12em;
 }
 
 .about-us-text {
@@ -596,21 +597,6 @@ header nav menu .active {
     max-width: 40vw;
   }
 }
-.main-container {
-  width: 100%;
-}
-
-.salons {
-  max-width: 808px;
-  margin: auto;
-  margin-top: 0.5em;
-}
-
-.salon-description {
-  max-width: 808px;
-  margin: auto;
-}
-
 p {
   color: white;
 }
@@ -619,14 +605,12 @@ h1 {
   color: white;
 }
 
-.salonA {
-  width: 50%;
-  height: 240px;
-}
-
+.salonA,
 .salonB {
-  width: 50%;
-  height: 240px;
+  max-height: 338px;
+  width: 600px;
+  max-width: 80vw;
+  align-items: center;
 }
 
 .salon-header {

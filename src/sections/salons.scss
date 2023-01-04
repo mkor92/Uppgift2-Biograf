@@ -1,34 +1,17 @@
-.main-container {
-  width: 100%;
-}
-
-.salons {
-  max-width: 808px;
-  margin: auto;
-  margin-top: 0.5em;
-}
-
-.salon-description {
-  max-width: 808px;
-  margin: auto;
-}
-
 p {
-  color:white;
+  color: white;
 }
 
 h1 {
-  color:white;
+  color: white;
 }
 
-.salonA {
-  width:50%;
-  height: 240px;
-}
-
+.salonA,
 .salonB {
-    width:50%;
-    height: 240px;
+  max-height: 338px;
+  width: 600px;
+  max-width: 80vw;
+  align-items: center;
 }
 
 .salon-header {
