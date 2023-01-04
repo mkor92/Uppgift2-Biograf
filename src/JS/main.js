@@ -63,7 +63,7 @@ if (
 ) {
   (async function () {
     let moviesArray = await getMovies();
-console.log(new Date(Date.now()).toLocaleDateString())
+
     document.querySelector(".todays-date").innerHTML = new Date(Date.now()).toLocaleDateString();
 
     
