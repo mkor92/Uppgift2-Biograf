@@ -526,6 +526,17 @@ header nav menu .active {
     padding: 1rem;
     width: 85vw;
   }
+  .restaurant-info {
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+  }
+  .restaurant-info ul {
+    margin-top: 1rem;
+  }
+  .restaurant-info ul .press-info {
+    margin: 0;
+  }
 }
 .movies {
   margin: 0px auto;
