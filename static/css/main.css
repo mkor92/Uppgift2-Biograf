@@ -8,8 +8,11 @@
 }
 
 body {
-  background-image: url("static/images/Background_cinema.jpg");
+  background-image: url("../images/Background_cinema.jpg");
   background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .sec {
@@ -23,7 +26,6 @@ body {
 
 main {
   width: 100%;
-  min-height: 70vh;
 }
 
 .logo {
@@ -225,7 +227,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-  .nav .movies-nav-list:first-child:focus .movies-nav-element {
+.nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -332,7 +334,7 @@ header nav menu .active {
 }
 .footer {
   background-color: #cc0028;
-  height: auto;
+  margin-top: auto;
 }
 
 .footer-nav {
@@ -613,59 +615,39 @@ header nav menu .active {
     max-width: 40vw;
   }
 }
-.main-container {
-  width: 100%;
-  /*background-color: rgba($first-color, 0.7);*/
-}
-
-.salons {
-  max-width: 808px;
-  margin: auto;
-  margin-top: 0.5em;
-}
-
-.salon-description {
-  max-width: 808px;
-  margin: auto;
-}
-
-p {
+.main-container p {
   color: white;
 }
-
-h1 {
+.main-container h1 {
   color: white;
+  margin: 2em 0 0.5em 0;
 }
-
-.salonA {
-  width: 50%;
-  height: 240px;
+.main-container .salonA,
+.main-container .salonB {
+  max-height: 338px;
+  width: 600px;
+  max-width: 90vw;
   border: 2px solid white;
-  margin: 1.5rem;
+  margin-bottom: 0.6em;
 }
-
-.salonB {
-  width: 50%;
-  height: 240px;
-  border: 2px solid white;
-  margin: 1.5rem;
-}
-
-.salon-header {
+.main-container .salon-header {
   margin-top: 0.5em;
 }
-
-.salon-text {
+.main-container .salon-text {
   margin-bottom: 3em;
   background-color: rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   padding: 1.5rem;
   border-radius: 1rem;
-  width: 60ch;
-  text-align: left;
-  margin: 1rem;
+  width: 600px;
+  max-width: 90vw;
 }
 
+@media screen and (max-width: 640px) {
+  .main-container {
+    display: flex;
+  }
+}
 .list-styling {
   display: flex;
   flex-direction: row;

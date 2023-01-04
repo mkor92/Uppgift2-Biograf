@@ -9,8 +9,11 @@
 }
 
 body {
-  background-image: url("static/images/Background_cinema.jpg");
+  background-image: url("../images/Background_cinema.jpg");
   background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 // Re-usable classes for bigger screens
@@ -25,7 +28,6 @@ body {
 
 main {
   width: 100%;
-  min-height: 70vh;
 }
 
 @import "variables.scss";
