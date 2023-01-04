@@ -6,7 +6,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-1-9T13:45", "2023-1-11T16:30", "2023-1-13T17:45"],
+      "dateTime": ["2023-01-05T13:45","2023-01-09T13:45", "2023-01-11T16:30", "2023-01-13T17:45"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -18,7 +18,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Drama",
       "salon": "B",
-      "dateTime": ["2023-1-9T14:45", "2023-1-11T18:30", "2023-1-13T20:45"],
+      "dateTime": ["2023-01-09T14:45", "2023-01-11T18:30", "2023-01-13T20:45"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -30,7 +30,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-1-10T15:00", "2023-1-12T17:30", "2023-1-14T21:00"],
+      "dateTime": ["2023-01-10T15:00", "2023-01-12T17:30", "2023-01-14T21:00"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -42,7 +42,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Komedi",
       "salon": "B",
-      "dateTime": ["2023-1-10T14:30", "2023-1-12T17:00", "2023-1-14T20:30"],
+      "dateTime": ["2023-01-10T14:30", "2023-01-12T17:00", "2023-01-14T20:30"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -54,7 +54,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Drama",
       "salon": "B",
-      "dateTime": ["2023-1-15T15:00", "2023-1-17T17:30", "2023-1-19T21:00"],
+      "dateTime": ["2023-01-15T15:00", "2023-01-17T17:30", "2023-01-19T21:00"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -66,7 +66,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Drama",
       "salon": "B",
-      "dateTime": ["2023-1-16T15:00", "2023-1-18T17:30", "2023-1-20T21:00"],
+      "dateTime": ["2023-01-16T15:00", "2023-01-18T17:30", "2023-01-20T21:00"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -78,7 +78,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-1-15T16:00", "2023-1-17T18:30", "2023-1-19T21:20"],
+      "dateTime": ["2023-01-15T16:00", "2023-01-17T18:30", "2023-01-19T21:20"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -90,7 +90,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-1-16T15:30", "2023-1-18T18:15", "2023-1-20T21:00"],
+      "dateTime": ["2023-01-04T15:30","2023-01-16T15:30", "2023-01-18T18:15", "2023-01-20T21:00"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -102,7 +102,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-1-22T15:30", "2023-1-24T18:15", "2023-1-26T21:00"],
+      "dateTime": ["2023-01-04T19:30","2023-01-22T15:30", "2023-01-24T18:15", "2023-01-26T21:00"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -114,7 +114,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-1-23T15:30", "2023-1-25T18:15", "2023-1-27T21:00"],
+      "dateTime": ["2023-01-05T18:45","2023-01-23T15:30", "2023-01-25T18:15", "2023-01-27T21:00"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -126,7 +126,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Komedi",
       "salon": "B",
-      "dateTime": ["2023-1-22T15:00", "2023-1-24T17:45", "2023-1-26T20:30"],
+      "dateTime": ["2023-01-22T15:00", "2023-01-24T17:45", "2023-01-26T20:30"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -138,7 +138,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Komedi",
       "salon": "B",
-      "dateTime": ["2023-1-23T16:15", "2023-1-25T18:45", "2023-1-27T21:15"],
+      "dateTime": ["2023-01-23T16:15", "2023-01-25T18:45", "2023-01-27T21:15"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -150,7 +150,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Komedi",
       "salon": "A",
-      "dateTime": ["2023-1-28T15:30", "2023-1-30T18:15", "2023-2-1T21:00"],
+      "dateTime": ["2023-01-28T15:30", "2023-01-30T18:15", "2023-02-01T21:00"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -162,7 +162,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Drama",
       "salon": "B",
-      "dateTime": ["2023-1-28T15:00", "2023-1-30T17:45", "2023-2-1T20:00"],
+      "dateTime": ["2023-01-28T15:00", "2023-01-30T17:45", "2023-02-01T20:00"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -174,7 +174,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Komedi",
       "salon": "B",
-      "dateTime": ["2023-1-29T15:00", "2023-1-31T17:45", "2023-2-2T20:00"],
+      "dateTime": ["2023-01-05T1w:00", "2023-01-29T15:00", "2023-01-31T17:45", "2023-02-02T20:00"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -186,7 +186,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Komedi",
       "salon": "A",
-      "dateTime": ["2023-2-3T15:00", "2023-2-5T17:45", "2023-2-7T20:00"],
+      "dateTime": ["2023-02-03T15:00", "2023-02-05T17:45", "2023-02-07T20:00"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
@@ -198,7 +198,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Drama",
       "salon": "A",
-      "dateTime": ["2023-1-29T15:30", "2023-1-31T18:15", "2023-2-2T21:00"],
+      "dateTime": ["2023-01-29T15:30", "2023-01-31T18:15", "2023-02-02T21:00"],
       "image": [
         "https://picsum.photos/id/250/200/300",
         "https://picsum.photos/1200/500"
@@ -210,7 +210,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category": "Action",
       "salon": "A",
-      "dateTime": ["2023-2-3T15:30", "2023-2-5T18:00", "2023-2-7T20:45"],
+      "dateTime": ["2023-02-03T15:30", "2023-02-05T18:00", "2023-02-07T20:45"],
       "image": [
         "https://picsum.photos/200/300",
         "https://picsum.photos/1200/500"
