@@ -3,7 +3,9 @@ import { getMovies } from "./getMovies.js";
 
 mobileMenu();
 
-if (location === "https://mkor92.github.io/Uppgift2-Biograf/" || location === "https://mkor92.github.io/Uppgift2-Biograf/index.html") {
+location.pat
+
+if (location.pathname === "/Uppgift2-Biograf/" || location.pathname === "/Uppgift2-Biograf/index.html" || location.pathname === "/index.html") {
   (async function () {
     let moviesArray = await getMovies();
 
