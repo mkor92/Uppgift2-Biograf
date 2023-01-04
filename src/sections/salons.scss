@@ -1,23 +1,39 @@
-p {
-  color: white;
+.main-container {
+  p {
+    color: white;
+  }
+
+  h1 {
+    color: white;
+    margin: 2em 0 0.5em 0;
+  }
+
+  .salonA,
+  .salonB {
+    max-height: 338px;
+    width: 600px;
+    max-width: 90vw;
+    border: 2px solid white;
+    margin-bottom: 0.6em;
+  }
+
+  .salon-header {
+    margin-top: 0.5em;
+  }
+
+  .salon-text {
+    margin-bottom: 3em;
+    background-color: rgba($second-color, 0.3);
+    box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 600px;
+    max-width: 90vw;
+  }
 }
 
-h1 {
-  color: white;
-}
-
-.salonA,
-.salonB {
-  max-height: 338px;
-  width: 600px;
-  max-width: 80vw;
-  align-items: center;
-}
-
-.salon-header {
-  margin-top: 0.5em;
-}
-
-.salon-text {
-  margin-bottom: 3em;
+@media screen and (max-width: $breaking-point) {
+  .main-container {
+    display: flex;
+  }
 }
