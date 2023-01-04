@@ -1,6 +1,6 @@
 .sidebar {
   background-color: $default-red;
-  color: white;
+  color: $second-color;
   width: 26ch;
   min-height: 20rem;
   height: fit-content;
@@ -19,14 +19,16 @@
 
   li {
     list-style-type: none;
-  }
-}
-.sidebar-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  p {
-    padding-right: 0.5rem;
+    .sidebar-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      text-decoration: none;
+      color: $second-color;
+      p {
+        padding-right: 0.5rem;
+      }
+    }
   }
 }
 

@@ -713,13 +713,14 @@ header nav menu .active {
 .sidebar li {
   list-style-type: none;
 }
-
-.sidebar-links {
+.sidebar li .sidebar-links {
   display: flex;
   flex-direction: row;
   justify-content: left;
+  text-decoration: none;
+  color: white;
 }
-.sidebar-links p {
+.sidebar li .sidebar-links p {
   padding-right: 0.5rem;
 }
 
