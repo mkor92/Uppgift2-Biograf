@@ -677,3 +677,18 @@ h1 {
 .under-construction-icon-container {
   text-align: center;
 }
+
+.under-construction-btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.under-construction-link-home {
+  color: white;
+  background-color: #cc0028;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+}
