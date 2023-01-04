@@ -93,7 +93,7 @@ console.log(new Date(Date.now()).toLocaleDateString())
           li.appendChild(aElement);
 
           let movieTime = document.createElement("p");
-          movieTime.innerHTML = new Date(arrayDate[i]).toLocaleTimeString();
+          movieTime.innerHTML = new Date(arrayDate[i]).toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'});
           aElement.appendChild(movieTime);
           aElement.appendChild(movieId);
           aElement.appendChild(movieTitle);
