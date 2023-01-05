@@ -227,7 +227,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-  .nav .movies-nav-list:first-child:focus .movies-nav-element {
+.nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -736,9 +736,14 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 640px) {
+  .show-movies {
+    max-width: 100%;
+    width: 100%;
+  }
   .list-styling {
+    max-width: 100%;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow-x: auto;
   }
 }
 .sidebar {
@@ -789,12 +794,14 @@ header nav menu .active {
   padding: 1.5rem;
   border-radius: 1rem;
   width: 60ch;
+  max-width: 85vw;
   text-align: left;
   margin: 1rem;
 }
 
 .under-construction-heading {
   text-align: center;
+  color: white;
 }
 
 .under-construction-icon-container {
