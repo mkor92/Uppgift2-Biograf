@@ -1,5 +1,3 @@
-import { renderMovies } from "./movies.js";
-
 export async function movieInfo() {
   const movieOption = document.querySelectorAll(".movies-list-item");
   const description = document.querySelector(".description");

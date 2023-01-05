@@ -29,8 +29,8 @@
             <li>
               <a class="header-menu-item" href="about-us.html">Om oss</a>
             </li>
-            <li><a class="header-menu-item" href="#">Biljettinfo</a></li>
-            <li><a class="header-menu-item" href="#">Presentkort</a></li>
+            <li><a class="header-menu-item" href="under-construction.html">Biljettinfo</a></li>
+            <li><a class="header-menu-item" href="under-construction.html">Presentkort</a></li>
           </menu>
         </nav>
       </div>
@@ -66,22 +66,22 @@
                 >Restaurang <span class="arrow-top">&#9662;</span></a
               >
             </li>
-            <li class="movies-nav-element"><a href="#">Boka bord</a></li>
-            <li class="movies-nav-element"><a href="#">Vår menu</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Boka bord</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Vår menu</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="#">Events <span class="arrow-top">&#9662;</span></a>
+              <a href="under-construction.html">Events <span class="arrow-top">&#9662;</span></a>
             </li>
-            <li class="movies-nav-element"><a href="#">Live på bio</a></li>
-            <li class="movies-nav-element"><a href="#">Specialvisningar</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Live på bio</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Specialvisningar</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element"><a href="#">Kontakt</a></li>
+            <li class="movies-nav-element"><a href="under-construction.html">Kontakt</a></li>
           </ul>
         </li>
       </ul>
@@ -93,15 +93,17 @@
         <section class="accordion-cont">
           <!-- Next / Before Buttons -->
           <button class="slide-btn prev">
-            <img src="static/images/arrow-left-circle.svg" alt="" />
+
+            <img src="static/images/arrow-left-circle.svg" alt="previosly movie" />
           </button>
           <button class="slide-btn next">
-            <img src="static/images/arrow-right-circle.svg" alt="" />
+            <img src="static/images/arrow-right-circle.svg" alt="next movie" />
+
           </button>
 
           <!-- Sliders -->
           <div class="slider">
-            <section class="slide">
+            <section class="slide" id="first-slide">
               <div class="slide-content">
                 <h2>MOVIE NAME</h2>
                 <h3>SUBTITLE</h3>
@@ -124,9 +126,56 @@
                 alt="movie banner"
               />
             </section>
+            <section class="slide">
+              <div class="slide-content">
+                <h2>MOVIE NAME</h2>
+                <h3>SUBTITLE</h3>
+                <a href="/" class="slide-btn">Biljetter</a>
+              </div>
+              <img
+                src="https://biografspegeln.se/media/stills/2956/1024/ec0b06e3-1860-4394-85ff-d590d6ced08c.jpg"
+                alt="movie banner"
+              />
+            </section>
+            <section class="slide">
+              <div class="slide-content">
+                <h2>MOVIE NAME</h2>
+                <h3>SUBTITLE</h3>
+                <a href="/" class="slide-btn">Biljetter</a>
+              </div>
+              <img
+                src="https://biografspegeln.se/media/stills/3031/1024/ed7903e9-a804-4790-8740-58b3e9c7c4ed.jpeg"
+                alt="movie banner"
+              />
+            </section>
           </div>
         </section>
       </div>
+
+      <script src="src/JS/accordion.js"></script>
+
+
+      <section class="show-movies sec-cont">
+        <div>
+        <h1>PÅ BION JUST NU</h1>
+        <h2>KOMEDI</h2>
+        <ul class="comedy-start-list list-styling"></ul>
+        <h2>ACTION</h2>
+        <ul class="action-start-list list-styling"></ul>
+        <h2>DRAMA</h2>
+        <ul class="drama-start-list list-styling"></ul>
+      </div>
+
+      <div class="sidebar sec-cont">
+        
+        <h3>Dagens visningar:</h3>
+        <h4 class="todays-date">
+        </h4>
+        <ul class="todays-shows"></ul>
+      </div>
+
+      </section>
+
     </main>
 
     <footer class="footer sec">

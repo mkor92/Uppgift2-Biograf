@@ -2,19 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/css/main.css" />
     <script type="module" src="src/JS/main.js"></script>
+
     <script
       src="https://kit.fontawesome.com/04d50240d2.js"
       crossorigin="anonymous"
     ></script>
-    <title>Salong A</title>
+    <link rel="stylesheet" href="static/css/main.css" />
+    <title>Biograf Luleå</title>
   </head>
+
   <body>
     <header class="sec">
-      <div class="header-content-wrap">
+      <div class="header-content-wrap sec-cont">
         <a href="index.html" class="logo"
           ><img src="static/images/Logo.png" alt="logo"
         /></a>
@@ -22,11 +24,21 @@
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
             <li>
-              <a class="header-menu-item" href="index.html">Hem</a>
+              <a class="header-menu-item active" href="index.html">Hem</a>
             </li>
-            <li><a class="header-menu-item" href="about-us.html">Om oss</a></li>
-            <li><a class="header-menu-item" href="under-construction.html">Biljettinfo</a></li>
-            <li><a class="header-menu-item" href="under-construction.html">Presentkort</a></li>
+            <li>
+              <a class="header-menu-item" href="about-us.html">Om oss</a>
+            </li>
+            <li>
+              <a class="header-menu-item" href="under-construction.html"
+                >Biljettinfo</a
+              >
+            </li>
+            <li>
+              <a class="header-menu-item" href="under-construction.html"
+                >Presentkort</a
+              >
+            </li>
           </menu>
         </nav>
       </div>
@@ -58,43 +70,59 @@
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="restaurant.html">Restaurang <span class="arrow-top">&#9662;</span></a>
+              <a href="restaurant.html"
+                >Restaurang <span class="arrow-top">&#9662;</span></a
+              >
             </li>
-            <li class="movies-nav-element"><a href="under-construction.html">Boka bord</a></li>
-            <li class="movies-nav-element"><a href="under-construction.html">Vår menu</a></li>
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Boka bord</a>
+            </li>
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Vår menu</a>
+            </li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="under-construction.html">Events <span class="arrow-top">&#9662;</span></a>
+              <a href="under-construction.html"
+                >Events <span class="arrow-top">&#9662;</span></a
+              >
             </li>
-            <li class="movies-nav-element"><a href="under-construction.html">Live på bio</a></li>
-            <li class="movies-nav-element"><a href="under-construction.html">Specialvisningar</a></li>
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Live på bio</a>
+            </li>
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Specialvisningar</a>
+            </li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element"><a href="under-construction.html">Kontakt</a></li>
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Kontakt</a>
+            </li>
           </ul>
         </li>
       </ul>
     </nav>
-    <main class="main-container sec">
-      <div class="salon-description sec-cont">
-        <h1 class="salon-header">Salong B</h1>
-        <img src="static/images/Salong_B.jpg" class="salonB"></img>
-        <p class="salon-text">
-          Salong B är vår nyaste salong och invigdes i april 2017. Den har en svängd filmduk som ger ett större djup i bilden.
-          Barco 4K-projektor, som har en upplösning på 4096 x 2160 pixlar med inbyggd 3D-Dolby för 3D-filmer.
-          Salongen är byggd för att ta besökarnas komfort till en ännu högre nivå. Salongen har 100st platser. 
-          Salongen erbjuder samma generösa utrymme och radavstånd som Salong A och alla fåtöljer har ställbara ryggstöd.
-          Rad 1 har Biosängar, där man ligger ner och ser på film.
-          Salongen är uppbyggd med gradin, dvs trappstegsformat som ger fantastisk sikt framåt. Salongen är även väl 
-          anpassad för konferens och presentationer.
-        </p>
-      </div>
+
+    <main class="sec">
+      <section class="sec-cont">
+        <div class="under-construction-container">
+          <h1 class="under-construction-heading">Under Construction</h1>
+          <div class="under-construction-icon-container">
+            <i class="fa-solid fa-wrench fa-10x"></i>
+          </div>
+          <div class="under-construction-btn-container">
+            <a href="index.html" class="under-construction-link-home"
+              >Tillbaks hem</a
+            >
+          </div>
+        </div>
+      </section>
     </main>
+
     <footer class="footer sec">
       <div class="footer-content sec-cont">
         <nav class="footer-nav">
@@ -140,6 +168,5 @@
         </nav>
       </div>
     </footer>
-    
   </body>
 </html>
