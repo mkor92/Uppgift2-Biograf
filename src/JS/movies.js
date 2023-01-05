@@ -20,7 +20,6 @@ export async function renderMovies() {
     textOnImage.innerHTML = `<span>${category}</span>`;
     ul.appendChild(li);
     li.appendChild(textOnImage);
-    console.log(allMovies[i].title);
     movieInfo();
   }
 
