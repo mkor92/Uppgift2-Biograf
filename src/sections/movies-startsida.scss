@@ -7,22 +7,21 @@
   li {
     list-style-type: none;
     margin: 0.5rem;
-    img{
-    border: 3px solid white;
-    max-width: 200px;
+    img {
+      border: 3px solid white;
+      max-width: 200px;
     }
-  
+
     img:hover {
       transform: scale(1.1);
       cursor: pointer;
     }
   }
-  }
-
+}
 
 .show-movies {
   display: flex;
-    flex-direction: row;
+  flex-direction: row;
 
   h1 {
     color: $second-color;
@@ -40,10 +39,14 @@
   }
 }
 
-
 @media screen and (max-width: $breaking-point) {
+  .show-movies {
+    max-width: 100%;
+    width: 100%;
+  }
   .list-styling {
+    max-width: 100%;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow-x: auto;
   }
 }
