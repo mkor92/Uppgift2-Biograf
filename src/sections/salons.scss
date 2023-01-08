@@ -14,7 +14,7 @@
     flex-direction: row;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
   }
 
   .movies-salon-list {
@@ -69,6 +69,10 @@
     display: flex;
     .undercategory {
       flex-wrap: wrap;
+      margin-top: 0;
+    }
+    h1 {
+      margin: 1.5rem 0 0 1.5rem;
     }
   }
 }
