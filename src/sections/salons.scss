@@ -4,8 +4,40 @@
   }
 
   h1 {
-    color: white;
-    margin: 2em 0 0.5em 0;
+    color: $second-color;
+    margin-top: 1.5rem;
+  }
+
+  .undercategory {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid white;
+  }
+
+  .movies-salon-list {
+    display: flex;
+    margin: 20px 0px 10px;
+
+    .movies-salon-element {
+      width: fit-content;
+      text-decoration: none;
+      list-style-type: none;
+      border: 0.1rem solid black;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      padding: 0.45rem;
+      background-color: $second-color;
+      position: relative;
+      font-size: smaller;
+
+      a {
+        color: $first-color;
+      }
+    }
   }
 
   .salonA,
@@ -35,5 +67,8 @@
 @media screen and (max-width: $breaking-point) {
   .main-container {
     display: flex;
+    .undercategory {
+      flex-wrap: wrap;
+    }
   }
 }
