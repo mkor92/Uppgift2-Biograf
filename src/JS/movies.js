@@ -1,4 +1,5 @@
 import { getMovies } from "./getMovies.js";
+import { movieInfo } from "./movie-info.js";
 
 import listenerMenuBtn from "./listeners.js";
 
@@ -25,6 +26,7 @@ export async function renderMovies() {
     textOnImage.innerHTML = `<span>${category}</span>`;
     ul.appendChild(li);
     li.appendChild(textOnImage);
+    movieInfo();
   }
 
   comedyCategory.forEach((link) => {
@@ -45,6 +47,7 @@ export async function renderMovies() {
           textOnImage.innerHTML = `<span>${category}</span>`;
           ul.appendChild(li);
           li.appendChild(textOnImage);
+          movieInfo();
         }
       }
     });
@@ -68,6 +71,7 @@ export async function renderMovies() {
           textOnImage.innerHTML = `<span>${category}</span>`;
           ul.appendChild(li);
           li.appendChild(textOnImage);
+          movieInfo();
         }
       }
     });
@@ -91,6 +95,7 @@ export async function renderMovies() {
           textOnImage.innerHTML = `<span>${category}</span>`;
           ul.appendChild(li);
           li.appendChild(textOnImage);
+          movieInfo();
         }
       }
     });

@@ -499,7 +499,17 @@ header nav menu .active {
   border-radius: 10px;
   margin: auto;
   max-width: 808px;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#booking-render-container h1,
+#booking-render-container h2,
+#booking-render-container h3 {
+  margin: 0;
+  padding: 0;
+  color: black;
 }
 #booking-render-container .booking-step-1-start {
   margin-top: 1rem;
@@ -510,6 +520,8 @@ header nav menu .active {
   margin: auto;
   border: 3px solid black;
   margin-bottom: 3rem;
+  font-weight: bold;
+  color: black;
 }
 #booking-render-container .choose-seat-container {
   display: flex;
@@ -522,11 +534,13 @@ header nav menu .active {
 #booking-render-container .choose-seat-container div {
   display: flex;
   justify-content: center;
-  border: 2px solid black;
+  border: 3px solid black;
   width: 3.5rem;
   height: 3.5rem;
   align-items: center;
   border-radius: 10px;
+  font-weight: bold;
+  color: black;
 }
 #booking-render-container .buy-button-container {
   text-align: center;
@@ -742,7 +756,7 @@ header nav menu .active {
 }
 .list-styling li {
   list-style-type: none;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 .list-styling li img {
   border: 3px solid white;
@@ -761,7 +775,7 @@ header nav menu .active {
   color: white;
   border-bottom: 2px solid white;
   margin: 1.5rem 1.5rem 1.5rem 0;
-  min-width: 100%;
+  width: 100%;
 }
 .show-movies h2 {
   color: white;
@@ -773,9 +787,17 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 640px) {
+  .show-movies {
+    max-width: 100%;
+    width: 100%;
+  }
   .list-styling {
+    max-width: 100%;
     flex-wrap: nowrap;
-    overflow: auto;
+    overflow-x: auto;
+  }
+  .list-styling li {
+    margin: 0.5rem;
   }
 }
 .sidebar {
@@ -826,12 +848,14 @@ header nav menu .active {
   padding: 1.5rem;
   border-radius: 1rem;
   width: 60ch;
+  max-width: 85vw;
   text-align: left;
   margin: 1rem;
 }
 
 .under-construction-heading {
   text-align: center;
+  color: white;
 }
 
 .under-construction-icon-container {

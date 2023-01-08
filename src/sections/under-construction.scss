@@ -4,16 +4,19 @@
   padding: 1.5rem;
   border-radius: 1rem;
   width: 60ch;
+  max-width: 85vw;
+
   text-align: left;
   margin: 1rem;
 }
 
 .under-construction-heading {
   text-align: center;
+  color: $second-color;
 }
 
 .under-construction-icon-container {
-  margin-top: 2.5rem;  
+  margin-top: 2.5rem;
   text-align: center;
 }
 
@@ -31,7 +34,6 @@
   font-size: 1.2rem;
   font-weight: bold;
   border: none;
-  
 }
 
 .fa-wrench {
