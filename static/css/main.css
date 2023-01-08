@@ -800,15 +800,15 @@ header nav menu .active {
   display: flex;
   flex-direction: row;
 }
-.show-movies h1 {
+.show-movies .index-title {
   color: white;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   margin: 1.5rem 1.5rem 1.5rem 0;
   width: 100%;
 }
 .show-movies h2 {
   color: white;
-  border-bottom: 2px solid white;
+  border-bottom: 1px solid white;
   width: 20vw;
   margin: 1rem 1rem 1rem 0;
   padding: 0.5rem;
@@ -816,16 +816,21 @@ header nav menu .active {
 }
 
 @media screen and (max-width: 640px) {
-  .show-movies {
-    max-width: 100%;
-    width: 100%;
+  .show-movies .movies-lists-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
-  .list-styling {
+  .show-movies .index-title {
+    width: 90vw;
+  }
+  .show-movies .list-styling {
     max-width: 100%;
     flex-wrap: nowrap;
     overflow-x: auto;
   }
-  .list-styling li {
+  .show-movies .list-styling li {
     margin: 0.5rem;
   }
 }
