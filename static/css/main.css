@@ -203,16 +203,6 @@ header nav menu .active {
 .nav ul .movies-nav-list .movies-nav-element a {
   color: black;
 }
-.nav ul .movies-nav-list .movies-nav-element:not(:first-child) {
-  display: none;
-}
-.nav ul .movies-nav-list:first-child:hover .movies-nav-element {
-  display: block;
-  width: inherit;
-}
-.nav ul .movies-nav-list:first-child:hover .arrow-top {
-  display: none;
-}
 
 .mobile-nav-menu {
   display: none;
@@ -250,18 +240,8 @@ header nav menu .active {
   }
   .nav ul .movies-nav-list .movies-nav-element {
     width: 90vw;
-    background-color: #d9d9d9;
     border-radius: 0.25rem;
     margin-bottom: 0.15rem;
-  }
-  .nav ul .movies-nav-list .movies-nav-element:not(:first-child) {
-    margin-top: 0.4rem;
-    background-color: white;
-  }
-  .nav ul .movies-nav-list:first-child:hover .movies-nav-element,
-  .nav ul .movies-nav-list:first-child:focus .movies-nav-element {
-    display: block;
-    width: 90vw;
   }
 }
 .accordion-cont {
