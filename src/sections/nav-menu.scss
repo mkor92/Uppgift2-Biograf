@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  justify-content: left;
 
   .mobile-nav-menu {
     display: none;
@@ -12,57 +13,55 @@
     > ul {
       display: flex;
       flex-direction: row;
+
     }
     .movies-nav {
       list-style-type: none;
       display: inline;
-    }
-      border: 0.1rem solid black;
-      border-radius: 0.5rem;
       text-align: center;
       margin-right: 0.5rem;
       padding: 0.45rem;
-      background-color: $second-color;
       position: relative;
       font-size: larger;
 
-    .movies-nav-list {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      margin-top: 2vh;
+      .movies-nav-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2vh;
 
-      .movies-nav-element {
-        width: fit-content;
-        text-decoration: none;
-        list-style-type: none;
-        border: 0.1rem solid black;
-        border-radius: 0.5rem;
-        text-align: center;
-        margin-right: 0.5rem;
-        padding: 0.45rem;
-        background-color: $second-color;
-        position: relative;
-        font-size: 1rem;
+        .movies-nav-element {
+          width: fit-content;
+          text-decoration: none;
+          list-style-type: none;
+          border: 0.1rem solid black;
+          border-radius: 0.5rem;
+          text-align: center;
+          margin-right: 0.5rem;
+          padding: 0.45rem;
+          background-color: $second-color;
+          position: relative;
+          font-size: 1rem;
 
-        a {
-          color: $first-color;
+          a {
+            color: $first-color;
+          }
+        }
+
+        .movies-nav-element:not(:first-child) {
+          display: none;
         }
       }
 
-      .movies-nav-element:not(:first-child) {
-        display: none;
-      }
-    }
+      .movies-nav-list:first-child:hover {
+        .movies-nav-element {
+          display: block;
+          width: inherit;
+        }
 
-    .movies-nav-list:first-child:hover {
-      .movies-nav-element {
-        display: block;
-        width: inherit;
-      }
-
-      .arrow-top {
-        display: none;
+        .arrow-top {
+          display: none;
+        }
       }
     }
   }
