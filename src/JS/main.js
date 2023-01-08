@@ -1,7 +1,9 @@
 import { mobileMenu } from "./mobilmenu.js";
 import { getMovies } from "./getMovies.js";
+//import listenerMenuBtn from "./listeners.js";
 
 mobileMenu();
+
 
 if (
   location.pathname === "/Uppgift2-Biograf/" ||
@@ -124,3 +126,5 @@ if (location.pathname === "/movies.html" || location.pathname === "/Uppgift2-Bio
 if (location.pathname === "/salons.html" || location.pathname === "/Uppgift2-Biograf/salons.html") {
   document.querySelector("#salons-id").style.textDecoration = "underline";
 }
+
+//listenerMenuBtn();

@@ -50,6 +50,10 @@
   }
 }
 
+.mobile-nav-menu {
+  display: none;
+}
+
 @media screen and (max-width: $breaking-point) {
   .nav {
     width: 100%;

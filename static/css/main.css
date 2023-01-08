@@ -210,6 +210,10 @@ header nav menu .active {
   display: none;
 }
 
+.mobile-nav-menu {
+  display: none;
+}
+
 @media screen and (max-width: 640px) {
   .nav {
     width: 100%;
@@ -366,6 +370,12 @@ header nav menu .active {
   justify-content: space-between;
   color: white;
   list-style-type: none;
+}
+.footer-nav h2 {
+  font-size: 1rem;
+}
+.footer-nav li {
+  font-size: 0.8rem;
 }
 
 .footer-options {
