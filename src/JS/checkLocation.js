@@ -14,5 +14,10 @@ export default function checkLocationForStyle() {
     location.pathname === "/Uppgift2-Biograf/salons.html"
   ) {
     document.querySelector("#salons-id").style.textDecoration = "underline";
+  } else if (
+    location.pathname === "/events.html" ||
+    location.pathname === "/Uppgift2-Biograf/events.html"
+  ) {
+    document.querySelector("#events-id").style.textDecoration = "underline";
   } 
 }
