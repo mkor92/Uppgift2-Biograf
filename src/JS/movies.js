@@ -1,11 +1,10 @@
 import { getMovies } from "./getMovies.js";
-import { notOpen, openLinks } from "./listeners.js";
+
 import listenerMenuBtn from "./listeners.js";
 
 
 listenerMenuBtn();
-notOpen();
-openLinks();
+
 
 export async function renderMovies() {
   const allMovies = await getMovies();

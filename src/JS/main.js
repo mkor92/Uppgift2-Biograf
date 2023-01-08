@@ -3,7 +3,7 @@ import listenerMenuBtn from "./listeners.js";
 
 mobileMenu();
 
-listenerMenuBtn();
+
 
 
 import { getMovies } from "./getMovies.js";
@@ -131,3 +131,6 @@ if (location.pathname === "/movies.html" || location.pathname === "/Uppgift2-Bio
 if (location.pathname === "/salons.html" || location.pathname === "/Uppgift2-Biograf/salons.html") {
   document.querySelector("#salons-id").style.textDecoration = "underline";
 }
+
+
+listenerMenuBtn();

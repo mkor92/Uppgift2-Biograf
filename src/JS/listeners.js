@@ -18,7 +18,7 @@ export default function listenerMenuBtn() {
     }
   });
 }
-
+/*
 let activate;
 
 function notOpenLink(event) {
@@ -31,7 +31,7 @@ document.querySelector(".movies-nav-element a").addEventListener("click", notOpe
 }
 
 function openLink (event) {
-  if (activate == true) {
+  if (activate === true) {
     notOpen() = false;
   }
   activate = false
@@ -40,4 +40,4 @@ function openLink (event) {
 
 export function openLinks() {
   document.querySelector(".movies-nav-element a").addEventListener("click", openLink);
-}
+}*/
