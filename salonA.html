@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="static/css/main.css" />
     <script type="module" src="src/JS/main.js"></script>
+    <script type="module" src="src/JS/salons.js"></script>
     <script
       src="https://kit.fontawesome.com/04d50240d2.js"
       crossorigin="anonymous"
@@ -57,7 +58,6 @@
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-           
             <li class="movies-nav-element"><a href="restaurant.html">Restaurang <span class="arrow-top">&#9662;</span></a></li>
             <li class="movies-nav-element"><a href="under-construction.html">Boka bord</a></li>
             <li class="movies-nav-element"><a href="under-construction.html">Vår menu</a></li>
@@ -80,19 +80,26 @@
       </ul>
     </nav>
     <main class="main-container sec">
-      <div class="salon-description sec-cont">
-        <h1 class="salon-header">Salong A</h1>
-        <img src="static/images/Salong_A.jpg" class="salonA"></img>
-        <p class="salon-text">
-          Salong A är vår stora salong med en 500tum stor filmduk och 141st platser.
-          Barco Laser 4K-projektor.
-          Ljud Dolby Atmos.
-          Moderna biofåtöljer, där man på de fyra första raderna i salongen kan luta ryggstödet bakåt för att 
-          få en perfekt vinkel mot filmduken.
-          Rad 8 har Lyxfåtöljer, där man själv väljer inställningar på stolen.
-          Hörslinga finns, den täcker platserna 86-141.
-        </p>
-      </div>
+      <section class="sec-cont">
+        <div class="salon-description">
+          <h1 class="salon-header">Salong A</h1>
+          <img src="static/images/Salong_A.jpg" class="salonA"></img>
+            <p class="salon-text">
+              Salong A är vår stora salong med en 500tum stor filmduk och 141st platser.
+              Barco Laser 4K-projektor.
+              Ljud Dolby Atmos.
+              Moderna biofåtöljer, där man på de fyra första raderna i salongen kan luta ryggstödet bakåt för att 
+              få en perfekt vinkel mot filmduken.
+              Rad 8 har Lyxfåtöljer, där man själv väljer inställningar på stolen.
+              Hörslinga finns, den täcker platserna 86-141.
+            </p>
+        </div>
+      </section>
+      <section class="salonA-movie-container sec-cont">
+        <h2 class="salon-h2">Filmer som visas i salongen:</h2>
+        <ul class="salon-movielist">
+        </ul>
+      </section>
     </main>
     <footer class="footer sec">
       <div class="footer-content sec-cont">

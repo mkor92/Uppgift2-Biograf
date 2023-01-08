@@ -59,7 +59,7 @@ if (
   location.pathname === "/Uppgift2-Biograf/restaurant.html" ||
   location.pathname === "/Uppgift2-Biograf/" ||
   location.pathname === "/" ||
-  location.pathname === "/restaurant.html"
+  location.pathname === "/restaurant.html" 
 ) {
   (async function () {
     let moviesArray = await getMovies();
