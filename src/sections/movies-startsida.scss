@@ -6,7 +6,7 @@
   margin: 0 auto 1.5rem auto;
   li {
     list-style-type: none;
-    margin: 0.5rem;
+    margin: 1rem;
     img {
       border: 3px solid white;
       max-width: 200px;
@@ -27,7 +27,7 @@
     color: $second-color;
     border-bottom: 2px solid white;
     margin: 1.5rem 1.5rem 1.5rem 0;
-    min-width: 100%;
+    width: 100%;
   }
   h2 {
     color: $second-color;
@@ -48,5 +48,8 @@
     max-width: 100%;
     flex-wrap: nowrap;
     overflow-x: auto;
+    li {
+      margin: 0.5rem;
+    }
   }
 }

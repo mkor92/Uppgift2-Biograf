@@ -227,7 +227,7 @@ header nav menu .active {
     margin-bottom: 0.15rem;
   }
   .nav .movies-nav-list:first-child:hover .movies-nav-element,
-.nav .movies-nav-list:first-child:focus .movies-nav-element {
+  .nav .movies-nav-list:first-child:focus .movies-nav-element {
     display: block;
     width: 85vw;
   }
@@ -705,7 +705,7 @@ header nav menu .active {
 }
 .list-styling li {
   list-style-type: none;
-  margin: 0.5rem;
+  margin: 1rem;
 }
 .list-styling li img {
   border: 3px solid white;
@@ -724,7 +724,7 @@ header nav menu .active {
   color: white;
   border-bottom: 2px solid white;
   margin: 1.5rem 1.5rem 1.5rem 0;
-  min-width: 100%;
+  width: 100%;
 }
 .show-movies h2 {
   color: white;
@@ -744,6 +744,9 @@ header nav menu .active {
     max-width: 100%;
     flex-wrap: nowrap;
     overflow-x: auto;
+  }
+  .list-styling li {
+    margin: 0.5rem;
   }
 }
 .sidebar {
@@ -796,7 +799,7 @@ header nav menu .active {
   width: 60ch;
   max-width: 85vw;
   text-align: left;
-  margin: 1rem;
+  margin: 2rem auto;
 }
 
 .under-construction-heading {
