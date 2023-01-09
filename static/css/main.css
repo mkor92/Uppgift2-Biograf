@@ -673,7 +673,7 @@ header nav menu .active {
 .main-container .salonA,
 .main-container .salonB {
   max-height: 60vh;
-  width: 90%;
+  width: 100%;
   max-width: 90vw;
   border: 2px solid white;
   margin-bottom: 0.6em;
@@ -691,7 +691,7 @@ header nav menu .active {
   box-sizing: border-box;
   padding: 1.5rem;
   border-radius: 1rem;
-  width: 90%;
+  width: 100%;
   max-width: 90vw;
 }
 
