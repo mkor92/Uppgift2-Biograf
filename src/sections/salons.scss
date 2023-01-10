@@ -1,7 +1,7 @@
 .main-container {
   .salonA,
   .salonB {
-    max-height: 40vh;
+    max-height: 60vh;
     width: 100%;
     max-width: 90vw;
     border: 2px solid white;
@@ -18,7 +18,7 @@
   .salon-text {
     color: $second-color;
     margin-bottom: 3em;
-    background-color: rgba($second-color, 0.3);
+    background-color: rgba($second-color, 0.5);
     box-sizing: border-box;
     padding: 1.5rem;
     border-radius: 1rem;
