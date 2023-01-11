@@ -59,6 +59,12 @@ const renderBooking = (salon, title, time) => {
             <div class="seat">29</div>
             <div class="seat">30</div>
          </div>
+         <div class="email-container">
+         <p class="name-email-details">3.Skriv in era detaljer</p>
+         <input type="text "class="name-input" name="name" placeholder="Namn">
+         <input type="email "class="email-input" name="email" placeholder="skriv mailadress">
+         <input type="email "class="confirm-email-input" name="confirmEmail" placeholder="bekräfta mailadress">
+         </div>
         <div class="buy-button-container">
             <button>Köp biljetter</button>
         </div>
