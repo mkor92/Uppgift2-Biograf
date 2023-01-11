@@ -526,6 +526,7 @@ header nav menu .active {
 .restaurant {
   border: 2px solid white;
   margin: 1.5rem;
+  width: 94%;
 }
 
 .undercategory {
@@ -752,7 +753,9 @@ header nav menu .active {
   margin-bottom: 0.6em;
 }
 .main-container .salon-header {
-  margin-top: 0.5em;
+  margin: 0.5em 0 1rem 0;
+  border-bottom: 1px solid white;
+  max-width: 60vw;
 }
 .main-container .salon-text {
   margin-bottom: 3em;

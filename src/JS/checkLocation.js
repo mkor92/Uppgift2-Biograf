@@ -19,5 +19,15 @@ export default function checkLocationForStyle() {
     location.pathname === "/Uppgift2-Biograf/events.html"
   ) {
     document.querySelector("#events-id").style.textDecoration = "underline";
-  } 
+  } else if ( 
+    location.pathname === "/salonA.html" ||
+    location.pathname === "/Uppgift2-Biograf/salonA.html"
+  ) {
+    document.querySelector("#salon-A").style.textDecoration = "underline";
+  } else if (
+    location.pathname === "/salonB.html" ||
+    location.pathname === "/Uppgift2-Biograf/salonB.html"
+  ) {
+    document.querySelector("#salon-B").style.textDecoration = "underline";
+  }
 }
