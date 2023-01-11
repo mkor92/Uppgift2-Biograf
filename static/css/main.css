@@ -497,6 +497,40 @@ header nav menu .active {
   font-weight: bold;
   color: black;
 }
+#booking-render-container .email-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 55%;
+}
+#booking-render-container .name-email-details {
+  color: black;
+  margin-top: 2em;
+}
+#booking-render-container .name-input {
+  text-align: center;
+  margin-top: 2em;
+  height: 3em;
+  width: 12em;
+  border-style: none;
+}
+#booking-render-container .email-input {
+  text-align: center;
+  margin-top: 1em;
+  height: 3em;
+  width: 12em;
+  border-style: none;
+}
+#booking-render-container ::placeholder {
+  text-align: center;
+  color: black;
+}
+#booking-render-container .confirm-email-input {
+  text-align: center;
+  margin-top: 1em;
+  height: 3em;
+  width: 12em;
+  border-style: none;
+}
 #booking-render-container .buy-button-container {
   text-align: center;
   margin-top: 2rem;

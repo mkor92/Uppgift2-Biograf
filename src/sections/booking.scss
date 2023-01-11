@@ -54,6 +54,46 @@
     }
   }
 
+  .email-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 55%;
+  }
+
+  .name-email-details {
+    color: black;
+    margin-top: 2em;
+  }
+
+  .name-input {
+    text-align: center;
+    margin-top: 2em;
+    height: 3em;
+    width: 12em;
+    border-style: none;   
+  }
+
+  .email-input {
+    text-align: center;
+    margin-top: 1em;
+    height: 3em;
+    width: 12em;
+    border-style: none;
+  }
+
+  ::placeholder {
+    text-align: center;
+    color: black;
+  }
+
+  .confirm-email-input {
+    text-align: center;
+    margin-top: 1em;
+    height: 3em;
+    width: 12em;
+    border-style: none;
+  }
+
   .buy-button-container {
     text-align: center;
     margin-top: 2rem;
