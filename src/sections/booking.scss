@@ -60,9 +60,22 @@
     margin-left: 55%;
   }
 
-  .email-input {
+  .name-email-details {
+    color: black;
+    margin-top: 2em;
+  }
+
+  .name-input {
     text-align: center;
     margin-top: 2em;
+    height: 3em;
+    width: 12em;
+    border-style: none;   
+  }
+
+  .email-input {
+    text-align: center;
+    margin-top: 1em;
     height: 3em;
     width: 12em;
     border-style: none;
