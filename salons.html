@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="static/css/main.css" />
     <script type="module" src="src/JS/main.js"></script>
     <script
@@ -32,7 +35,11 @@
       </div>
     </header>
     <nav class="sec">
-      <ul class="nav sec-cont">
+      <button class="mobile-nav-menu">
+        Meny <span class="arrow-top" id="menu-span">&#9662;</span>
+      </button>
+      <div class="nav sec-cont">
+      <ul id="nav-id">
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
@@ -44,46 +51,56 @@
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
               <a href="salons.html" id="salons-id"
-                >Salonger <span class="arrow-top">&#9662;</span></a
+                >Salonger </a
               >
             </li>
+          </ul>
+        </li>
+        <li class="movies-nav">
+          <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="salonA.html">Salong A</a>
-            </li>
-            <li class="movies-nav-element">
-              <a href="salonB.html">Salong B</a>
+              <a href="restaurant.html"
+                >Restaurang </a
+              >
             </li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="restaurant.html">Restaurang <span class="arrow-top">&#9662;</span></a>
+              <a href="events.html"
+                >Events </a
+              >
             </li>
-            <li class="movies-nav-element"><a href="under-construction.html">Boka bord</a></li>
-            <li class="movies-nav-element"><a href="under-construction.html">Vår menu</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="under-construction.html">Events <span class="arrow-top">&#9662;</span></a>
+              <a href="under-construction.html">Kontakt</a>
             </li>
-            <li class="movies-nav-element"><a href="under-construction.html">Live på bio</a></li>
-            <li class="movies-nav-element"><a href="under-construction.html">Specialvisningar</a></li>
-          </ul>
-        </li>
-        <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element"><a href="under-construction.html">Kontakt</a></li>
           </ul>
         </li>
       </ul>
+    </div>
     </nav>
     <main class="main-container sec">
       <section class="sec-cont">
       <div class="salons sec-cont">
-        <h1 class="salon-header">Kort om våra salonger</h1>
+        <div class="undercategory">
+          <h1 class="about-salons">Kort om våra salonger</h1>
+          <nav class="sec">
+            <ul class="movies-salon-list">
+              <li class="movies-salon-element">
+                <a href="salonA.html">Salong A</a>
+              </li>
+              <li class="movies-salon-element">
+                <a href="salonB.html">Salong B</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        
         <p class="salon-text">
           När biografen invigdes fanns en salong med 350 platser, med vad man kan förmoda ganska begränsad sittkomfort. 
           Detta ändrades efterhand och vid början av 2000-talet hade den siffran gått ned till 150 mycket skönare fåtöljer. 

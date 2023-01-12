@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
     <title>Booking</title>
     <link rel="stylesheet" href="static/css/main.css" />
     <script type="module" src="src/JS/main.js" defer></script>
@@ -30,7 +34,11 @@
       </div>
     </header>
     <nav class="sec">
-      <ul class="nav sec-cont">
+      <button class="mobile-nav-menu">
+        Meny <span class="arrow-top" id="menu-span">&#9662;</span>
+      </button>
+      <div class="nav sec-cont">
+      <ul id="nav-id">
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
@@ -42,14 +50,8 @@
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
               <a href="salons.html"
-                >Salonger <span class="arrow-top">&#9662;</span></a
+                >Salonger </a
               >
-            </li>
-            <li class="movies-nav-element">
-              <a href="salonA.html">Salong A</a>
-            </li>
-            <li class="movies-nav-element">
-              <a href="salonB.html">Salong B</a>
             </li>
           </ul>
         </li>
@@ -57,28 +59,29 @@
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
               <a href="restaurant.html"
-                >Restaurang <span class="arrow-top">&#9662;</span></a
+                >Restaurang </a
               >
             </li>
-            <li class="movies-nav-element"><a href="#">Boka bord</a></li>
-            <li class="movies-nav-element"><a href="#">Vår menu</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="#">Events <span class="arrow-top">&#9662;</span></a>
+              <a href="events.html"
+                >Events </a
+              >
             </li>
-            <li class="movies-nav-element"><a href="#">Live på bio</a></li>
-            <li class="movies-nav-element"><a href="#">Specialvisningar</a></li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
-            <li class="movies-nav-element"><a href="#">Kontakt</a></li>
+            <li class="movies-nav-element">
+              <a href="under-construction.html">Kontakt</a>
+            </li>
           </ul>
         </li>
       </ul>
+    </div>
     </nav>
     <main class="sec">
       <section class="sec-cont">

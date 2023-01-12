@@ -1,0 +1,43 @@
+  .undercategory {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid white;
+  }
+
+  .events-title {
+        color: $second-color;
+        margin-top: 1.5rem;    
+        font-size: 1.5rem;
+  }
+
+  .events-category-list {
+    display: flex;
+    margin: 20px 0px 10px;
+
+    .events-category-element {
+      width: fit-content;
+      text-decoration: none;
+      list-style-type: none;
+      border: 0.1rem solid black;
+      border-radius: 0.5rem;
+      text-align: center;
+      margin-right: 0.5rem;
+      padding: 0.45rem;
+      background-color: $second-color;
+      position: relative;
+      font-size: smaller;
+
+      a {
+        color: $first-color;
+      }
+    }
+  }
+
+  @media screen and (max-width: $breaking-point) {
+    .events-title {
+      margin-left: 1.5rem;
+    }
+  }

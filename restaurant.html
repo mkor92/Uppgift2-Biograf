@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="static/css/main.css" />
     <script type="module" src="src/JS/main.js"></script>
     <script
@@ -22,7 +25,7 @@
           <button class="header-nav-toggle"></button>
           <menu class="header-menu">
             <li>
-              <a class="header-menu-item active" href="index.html">Hem</a>
+              <a class="header-menu-item" href="index.html">Hem</a>
             </li>
             <li>
               <a class="header-menu-item" href="about-us.html">Om oss</a>
@@ -42,7 +45,11 @@
       </div>
     </header>
     <nav class="sec">
-      <ul class="nav sec-cont">
+      <button class="mobile-nav-menu">
+        Meny <span class="arrow-top" id="menu-span">&#9662;</span>
+      </button>
+      <div class="nav sec-cont">
+      <ul id="nav-id">
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
@@ -54,44 +61,26 @@
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
               <a href="salons.html"
-                >Salonger <span class="arrow-top">&#9662;</span></a
+                >Salonger </a
               >
-            </li>
-            <li class="movies-nav-element">
-              <a href="salonA.html">Salong A</a>
-            </li>
-            <li class="movies-nav-element">
-              <a href="salonB.html">Salong B</a>
             </li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a id="restaurant-id" href="restaurant.html"
-                >Restaurang <span class="arrow-top">&#9662;</span></a
+              <a href="restaurant.html" id="restaurant-id"
+                >Restaurang </a
               >
-            </li>
-            <li class="movies-nav-element">
-              <a href="under-construction.html">Boka bord</a>
-            </li>
-            <li class="movies-nav-element">
-              <a href="under-construction.html">Vår menu</a>
             </li>
           </ul>
         </li>
         <li class="movies-nav">
           <ul class="movies-nav-list">
             <li class="movies-nav-element">
-              <a href="under-construction.html"
-                >Events <span class="arrow-top">&#9662;</span></a
+              <a href="events.html"
+                >Events </a
               >
-            </li>
-            <li class="movies-nav-element">
-              <a href="under-construction.html">Live på bio</a>
-            </li>
-            <li class="movies-nav-element">
-              <a href="under-construction.html">Specialvisningar</a>
             </li>
           </ul>
         </li>
@@ -103,6 +92,7 @@
           </ul>
         </li>
       </ul>
+    </div>
     </nav>
     <main class="sec clear-main">
       <div class="sec-cont">
@@ -172,9 +162,23 @@
 
       <script src="src/JS/accordion.js"></script>
 
+        <div class="undercategory sec-cont">
+          <h2 class="restaurant-text about-salons res-title">Luleå bios dine-in bistro</h2>
+          <nav class="sec">
+            <ul class="restaurant-under-list">
+              <li class="restaurant-under-element">
+                <a href="under-construction.html">Boka bord</a>
+              </li>
+              <li class="restaurant-under-element">
+                <a href="under-construction.html">Vår menu</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
       <section class="show-sidebar-next sec-cont">
-        <div class="restaurant-container">
-          <h2 class="restaurant-text res-title">Luleå bios dine-in bistro</h2>
+
+        <div class="restaurant-container ">
           <img
             class="restaurant"
             alt="picture of salon with tables"
@@ -188,14 +192,14 @@
               fringilla mollis justo, sit amet eleifend mi porttitor a. Cras ac
               lacus nec enim bibendum fermentum. Nam erat metus, ultricies at ex
               et, tempor sagittis felis. Cras id aliquet nulla. Ut placerat urna
-              eget velit pharetra, non mollis libero ultricies. Duis et metus
-              sed nisi commodo egestas. Aenean consequat nec quam vel vehicula.
-              In quis dui mollis, sollicitudin metus ut, eleifend lacus. Proin a
-              sapien sed ipsum auctor porttitor a vel est. Fusce ut orci
-              lacinia, sodales nunc ac, scelerisque nisi. Proin ac metus
-              consequat, tincidunt dui tempor, hendrerit elit. Nam dignissim est
-              ac metus tristique, vitae eleifend orci varius. Lorem ipsum dolor
-              sit amet, consectetur adipiscing elit.
+              eget velit pharetra, non mollis libero ultricies. Duis et metus sed
+              nisi commodo egestas. Aenean consequat nec quam vel vehicula. In
+              quis dui mollis, sollicitudin metus ut, eleifend lacus. Proin a
+              sapien sed ipsum auctor porttitor a vel est. Fusce ut orci lacinia,
+              sodales nunc ac, scelerisque nisi. Proin ac metus consequat,
+              tincidunt dui tempor, hendrerit elit. Nam dignissim est ac metus
+              tristique, vitae eleifend orci varius. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit.
             </p>
             <div>
               <ul class="restaurant-text restaurant-info">
@@ -219,13 +223,14 @@
                 </li>
               </ul>
             </div>
-          </div>
         </div>
-        <div class="sidebar">
+      </div>
+        <div class="sidebar sec-cont res-sidebar">
           <h3>Dagens visningar:</h3>
           <h4 class="todays-date"></h4>
           <ul class="todays-shows"></ul>
         </div>
+      
       </section>
     </main>
     <footer class="footer sec">
