@@ -48,6 +48,10 @@ export async function findMovieID() {
 
   console.log(datesArray)
 
+  if (
+    new Date(movie.dateTime[i]).toLocaleDateString() >=
+    new Date(Date.now()).toLocaleDateString()
+  ) {
     for (let i = 0; i < datesArray.length; i++) {
     let screeningDate = document.createElement("li");
     let bookingBtn = document.createElement("button");
@@ -58,6 +62,13 @@ export async function findMovieID() {
     bookingBtn.classList.add("booking-button");
     screeningDate.classList.add("screening-dates-item");
     
+  } 
+  }else {
+    let screeningDate = document.createElement("li");
+    screeningDate.innerHTML = "Inga visningar just nu"
+    screeningList.appendChild(screeningDate);
+    screeningDate.classList.add("screening-dates-item");
+
   }
 
 
