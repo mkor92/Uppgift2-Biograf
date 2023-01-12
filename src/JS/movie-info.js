@@ -48,7 +48,7 @@ export async function findMovieID() {
 
   console.log(datesArray)
 
- {
+ 
         for (let i = 0; i < datesArray.length; i++) {
           if (
             new Date(movie.dateTime[i]).toLocaleDateString() >=
