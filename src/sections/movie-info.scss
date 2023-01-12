@@ -1,0 +1,102 @@
+.movie-information {
+    color: $second-color;
+
+    .bigger-image {
+        margin: 2rem auto 2rem 0;
+        width:70%;
+        
+        border-radius: 5px;
+        position: absolute;
+    }
+
+    .movie-poster-small {
+        //width: 15%;
+        max-width: 15%;
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+        border: 3px solid white;
+    }
+
+    .movie-info-title {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+        font-size: 2.2rem;
+        -webkit-text-stroke: 2px black;
+    }
+
+    .category-info {
+        position: relative;
+        top: 5rem;
+        left: 2rem;
+        font-weight: 700;
+        font-size: 1.2rem;
+        -webkit-text-stroke: 1px black;
+    }
+}
+
+.movie-info-description {
+    background-color: rgba($second-color, 0.3);
+    box-sizing: border-box;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 100%;
+    text-align: left;
+    position: initial;
+    margin-top: 20%;
+}
+
+.screenings-title {
+    margin: 2rem 0 2rem 0;
+}
+
+.screening-dates {
+    color: $first-color;
+
+    list-style-type: none;
+
+
+    .screening-dates-item {
+        box-sizing: border-box;
+        width: 100%;
+        height: fit-content;
+        padding: 2rem;
+        margin-bottom: 2rem;
+        text-align: left;
+        background-color: rgba($second-color, 0.7);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .booking-button {
+            float: right;
+            background-color: $default-red;
+            color: $second-color;
+            padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+            border-radius: 5px;
+        }
+    }
+    
+}
+
+
+
+
+/* 
+      <section class="movie-information sec-cont">
+        <div class="images-container">
+          <img class="bigger-image" alt="bigger picture of the movie"/>
+          <img class="movie-poster-small" alt="movie poster" />
+          <h2 class="movie-title"></h2>
+          <p class="category-info"></p>
+        </div>
+        
+        <p class="movie-info-description"></p>
+        <h3 class="screenings">VISNINGSTIDER</h3>
+        <ul class="screening-dates"></ul>
+
+        
+      </section>
+*/
