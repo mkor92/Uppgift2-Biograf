@@ -42,8 +42,8 @@
 
   .salonA,
   .salonB {
-    max-height: 338px;
-    width: 600px;
+    max-height: 60vh;
+    width: 100%;
     max-width: 90vw;
     border: 2px solid white;
     margin-bottom: 0.6em;
@@ -56,14 +56,44 @@
   }
 
   .salon-text {
+    color: $second-color;
     margin-bottom: 3em;
-    background-color: rgba($second-color, 0.3);
+    background-color: rgba($second-color, 0.5);
     box-sizing: border-box;
     padding: 1.5rem;
     border-radius: 1rem;
-    width: 600px;
+    width: 100%;
     max-width: 90vw;
   }
+}
+.salon-h2 {
+  color: $second-color;
+  border-bottom: 2px solid white;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+  min-width: 100%;
+}
+
+.salon-movielist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+    li {
+      margin: 1rem;
+      list-style-type: none;
+      img {
+        border: 3px solid white;
+        max-width: 200px;
+      }
+
+      img:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+      }
+    }
+  
+
+  
 }
 
 @media screen and (max-width: $breaking-point) {

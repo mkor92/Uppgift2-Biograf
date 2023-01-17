@@ -2,6 +2,8 @@
   border-radius: 5px;
   margin-top: 1em;
   margin-bottom: 12em;
+  width: 100%;
+  
 }
 
 .about-us-text {
@@ -11,9 +13,8 @@
   box-sizing: border-box;
   padding: 1.5rem;
   border-radius: 1rem;
-  width: 60ch;
+  width: 100%;
   text-align: left;
-  margin: 1rem;
 }
 
 .contact-text-about-us {
@@ -25,13 +26,19 @@
   box-sizing: border-box;
   padding: 1.5rem;
   border-radius: 1rem;
-  width: 60ch;
+  width: 100%;
   text-align: left;
-  margin: 1rem;
 }
 
 .about-us-img {
-  width: 90%;
+  width: 100%;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 3rem 0;
+}
+
+.aboutus-title {
+  color: $second-color;
+  border-bottom: 2px solid white;
+  margin: 1.5rem 1.5rem 1.5rem 0;
+  min-width: 100%;
 }

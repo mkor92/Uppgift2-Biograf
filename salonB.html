@@ -1,163 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
-    <link rel="stylesheet" href="static/css/main.css" />
-    <script type="module" src="src/JS/main.js"></script>
-    <script
-      src="https://kit.fontawesome.com/04d50240d2.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Salong A</title>
-  </head>
-  <body>
-    <header class="sec">
-      <div class="header-content-wrap">
-        <a href="index.html" class="logo"
-          ><img src="static/images/Logo.png" alt="logo"
-        /></a>
-        <nav class="header-nav">
-          <button class="header-nav-toggle"></button>
-          <menu class="header-menu">
-            <li>
-              <a class="header-menu-item" href="index.html">Hem</a>
-            </li>
-            <li><a class="header-menu-item" href="about-us.html">Om oss</a></li>
-            <li><a class="header-menu-item" href="under-construction.html">Biljettinfo</a></li>
-            <li><a class="header-menu-item" href="under-construction.html">Presentkort</a></li>
-          </menu>
-        </nav>
-      </div>
-    </header>
-    <nav class="sec">
-      <button class="mobile-nav-menu">
-        Meny <span class="arrow-top" id="menu-span">&#9662;</span>
-      </button>
-      <div class="nav sec-cont">
-      <ul id="nav-id">
-        <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="movies.html" class="show-all-movies">Filmer </a>
-            </li>
-          </ul>
-        </li>
-        <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="salons.html"
-                >Salonger </a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="restaurant.html"
-                >Restaurang </a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="events.html"
-                >Events </a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="movies-nav">
-          <ul class="movies-nav-list">
-            <li class="movies-nav-element">
-              <a href="under-construction.html">Kontakt</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon_io/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon_io/favicon-16x16.png">
+  <link rel="manifest" href="static/images/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="static/css/main.css" />
+  <script type="module" src="src/JS/main.js"></script>
+  <script type="module" src="src/JS/salons.js"></script>
+  <script src="https://kit.fontawesome.com/04d50240d2.js" crossorigin="anonymous"></script>
+  <title>Salong A</title>
+</head>
+
+<body>
+  <header class="sec">
+    <div class="header-content-wrap">
+      <a href="index.html" class="logo"><img src="static/images/Logo.png" alt="logo" /></a>
+      <nav class="header-nav">
+        <button class="header-nav-toggle"></button>
+        <menu class="header-menu">
+          <li>
+            <a class="header-menu-item" href="index.html">Hem</a>
+          </li>
+          <li><a class="header-menu-item" href="about-us.html">Om oss</a></li>
+          <li><a class="header-menu-item" href="under-construction.html">Biljettinfo</a></li>
+          <li><a class="header-menu-item" href="under-construction.html">Presentkort</a></li>
+        </menu>
+      </nav>
     </div>
-    </nav>
-    <main class="main-container sec">
-      <div class="salon-description sec-cont">
-        <section class="sec-cont">
-          <div class="undercategory">
-            <h1 class="about-salons">Salong B</h1>
-            <nav class="sec">
-              <ul class="movies-salon-list">
-                <li class="movies-salon-element">
-                  <a href="salonA.html">Salong A</a>
-                </li>
-                <li class="movies-salon-element">
-                  <a href="salonB.html" id="salon-B">Salong B</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <img src="static/images/Salong_B.jpg" class="salonB"></img>
-          <p class="salon-text">
-            Salong B är vår nyaste salong och invigdes i april 2017. Den har en svängd filmduk som ger ett större djup i bilden.
-            Barco 4K-projektor, som har en upplösning på 4096 x 2160 pixlar med inbyggd 3D-Dolby för 3D-filmer.
-            Salongen är byggd för att ta besökarnas komfort till en ännu högre nivå. Salongen har 100st platser. 
-            Salongen erbjuder samma generösa utrymme och radavstånd som Salong A och alla fåtöljer har ställbara ryggstöd.
-            Rad 1 har Biosängar, där man ligger ner och ser på film.
-            Salongen är uppbyggd med gradin, dvs trappstegsformat som ger fantastisk sikt framåt. Salongen är även väl 
-            anpassad för konferens och presentationer.
-          </p>
-        </section>
+  </header>
+  <nav class="sec">
+    <button class="mobile-nav-menu">
+      Meny <span class="arrow-top" id="menu-span">&#9662;</span>
+    </button>
+    <div class="nav sec-cont">
+    <ul id="nav-id">
+      <li class="movies-nav">
+        <ul class="movies-nav-list">
+          <li class="movies-nav-element">
+            <a href="movies.html" class="show-all-movies">Filmer </a>
+          </li>
+        </ul>
+      </li>
+      <li class="movies-nav">
+        <ul class="movies-nav-list">
+          <li class="movies-nav-element">
+            <a href="salons.html"
+              >Salonger </a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="movies-nav">
+        <ul class="movies-nav-list">
+          <li class="movies-nav-element">
+            <a href="restaurant.html"
+              >Restaurang </a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="movies-nav">
+        <ul class="movies-nav-list">
+          <li class="movies-nav-element">
+            <a href="events.html"
+              >Events </a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="movies-nav">
+        <ul class="movies-nav-list">
+          <li class="movies-nav-element">
+            <a href="under-construction.html">Kontakt</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <main class="main-container sec">
+    <div class="salon-description sec-cont">
+      <section class="sec-cont">
+        <div class="undercategory">
+          <h1 class="about-salons">Salong B</h1>
+          <nav class="sec">
+            <ul class="movies-salon-list">
+              <li class="movies-salon-element">
+                <a href="salonA.html">Salong A</a>
+              </li>
+              <li class="movies-salon-element">
+                <a href="salonB.html" id="salon-B">Salong B</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <img src="static/images/Salong_B.jpg" class="salonB"></img>
+        <p class="salon-text">
+          Salong B är vår nyaste salong och invigdes i april 2017. Den har en svängd filmduk som ger ett
+          större djup i bilden. Barco 4K-projektor, som har en upplösning på 4096 x 2160 pixlar med inbyggd
+          3D-Dolby för 3D-filmer. Salongen är byggd för att ta besökarnas komfort till en ännu högre nivå.
+          Salongen har 100st platser. Salongen erbjuder samma generösa utrymme och radavstånd som Salong A
+          och alla fåtöljer har ställbara ryggstöd. Rad 1 har Biosängar, där man ligger ner och ser på film.
+          Salongen är uppbyggd med gradin, dvs trappstegsformat som ger fantastisk sikt framåt. Salongen är även väl
+          anpassad för konferens och presentationer.
+        </p>
+      </section>
       </div>
-    </main>
-    <footer class="footer sec">
-      <div class="footer-content sec-cont">
-        <nav class="footer-nav">
-          <div class="footer-row-1">
-            <h2 class="footer-luleå-bio">LULEÅ BIO</h2>
-            <li>
-              <a
-                class="footer-options"
-                href="https://www.google.com/maps/place/Lule%C3%A5/@65.586662,22.1823806,12z/data=!3m1!4b1!4m5!3m4!1s0x467f6314d2e8b867:0x4034506de8c8620!8m2!3d65.584819!4d22.1567026"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Lordgatan 123, Sverige</a
-              >
-            </li>
-          </div>
-          <div class="footer-row-2">
-            <h2 class="footer-kontakta-oss">KONTAKTA OSS</h2>
-            <li><a class="footer-options" href="#">0920-454545</a></li>
-            <li><a class="footer-options" href="#">info@webbsida.se</a></li>
-          </div>
-          <div class="footer-row-3">
-            <h2 class="footer-sociala-medier">SOCIALA MEDIER</h2>
-            <a
-              href="#"
-              class="fa-brands fa-facebook fa-xl"
-              id="footer-facebook-logo"
-            ></a>
-            <a
-              href="#"
-              class="fa-brands fa-instagram fa-xl"
-              id="footer-instagram-logo"
-            ></a>
-            <a
-              href="#"
-              class="fa-brands fa-twitter fa-xl"
-              id="footer-twitter-logo"
-            ></a>
-          </div>
-          <div class="footer-row-4">
-            <h2 class="footer-övrigt">ÖVRIGT</h2>
-            <li><a class="footer-options" href="#">Meny</a></li>
-          </div>
-        </nav>
-      </div>
-    </footer>
-    
-  </body>
+    <section class="salonB-movie-container sec-cont">
+      <h2 class="salon-h2">Filmer som visas i salongen:</h2>
+      <ul class="salon-movielist">
+      </ul>
+    </section>
+  </main>
+  <footer class="footer sec">
+    <div class="footer-content sec-cont">
+      <nav class="footer-nav">
+        <div class="footer-row-1">
+          <h2 class="footer-luleå-bio">LULEÅ BIO</h2>
+          <li>
+            <a class="footer-options"
+              href="https://www.google.com/maps/place/Lule%C3%A5/@65.586662,22.1823806,12z/data=!3m1!4b1!4m5!3m4!1s0x467f6314d2e8b867:0x4034506de8c8620!8m2!3d65.584819!4d22.1567026"
+              target="_blank" rel="noopener noreferrer">Lordgatan 123, Sverige</a>
+          </li>
+        </div>
+        <div class="footer-row-2">
+          <h2 class="footer-kontakta-oss">KONTAKTA OSS</h2>
+          <li><a class="footer-options" href="#">0920-454545</a></li>
+          <li><a class="footer-options" href="#">info@webbsida.se</a></li>
+        </div>
+        <div class="footer-row-3">
+          <h2 class="footer-sociala-medier">SOCIALA MEDIER</h2>
+          <a href="#" class="fa-brands fa-facebook fa-xl" id="footer-facebook-logo"></a>
+          <a href="#" class="fa-brands fa-instagram fa-xl" id="footer-instagram-logo"></a>
+          <a href="#" class="fa-brands fa-twitter fa-xl" id="footer-twitter-logo"></a>
+        </div>
+        <div class="footer-row-4">
+          <h2 class="footer-övrigt">ÖVRIGT</h2>
+          <li><a class="footer-options" href="#">Meny</a></li>
+        </div>
+      </nav>
+    </div>
+  </footer>
+</body>
 </html>
